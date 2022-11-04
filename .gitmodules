@@ -7,3 +7,6 @@
 [submodule "pylgbst"]
 	path = pylgbst
 	url = https://github.com/undera/pylgbst.git
+[submodule "lego-ble-wireless-protocol-docs"]
+	path = lego-ble-wireless-protocol-docs
+	url = https://github.com/lego/lego-ble-wireless-protocol-docs.git
