@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Run
+Exec=$HOME/gitwork/juletog/pitrain/run.sh
