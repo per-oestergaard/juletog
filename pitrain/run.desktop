@@ -1,4 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=Run
-Exec=$HOME/gitwork/juletog/pitrain/run.sh
+# full path is needed in next line
+Exec=lxterminal --loginshell -e bash /home/per/gitwork/juletog/pitrain/run.sh
+# Exec=/bin/bash /home/per/gitwork/juletog/pitrain/run.sh > /home/per/gitwork/juletog/pitrain/run.out 2> /home/per/gitwork/juletog/pitrain/run.err
