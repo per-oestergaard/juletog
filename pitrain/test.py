@@ -62,6 +62,15 @@ def play():
     except Exception:
         print("mp3 play did not work")
 
+def play_intro():
+    try:
+        mp3=os.path.join(here,"sounds","'ALRMBell_Bell of a level crossing (ID 0899)_BSB.mp3'")
+        print(mp3)
+        print("spawnlp=",os.spawnlp(os.P_NOWAIT, "/usr/bin/mpg321", "/usr/bin/mpg321","-g","25",mp3))
+        # playsound(mp3)
+    except Exception:
+        print("mp3 play did not work")
+
 def exit():
     print("byebye")
     stop()
@@ -73,6 +82,7 @@ keyboard.add_hotkey('p',play,suppress=True)
 keyboard.add_hotkey('x', exit, suppress=True)
 # keyboard.wait
 stop()
+play_intro()
 
 ctrlc_count=0
 
