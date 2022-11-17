@@ -31,13 +31,29 @@ print("HAT voltage ", hat.get_vin())
 here = os.path.dirname(__file__)
 
 motor_a = PassiveMotor("A")
-motor_c = PassiveMotor("B")
+motor_b = PassiveMotor("B")
 #color = ColorDistanceSensor('B')
 
 
-power=-15
+power_a=-10
+power_b=-10
 
-def power_up
+def power_down_a():
+    power_a=power_a-10
+    print("power_a=",power_a)
+
+def power_up_a():
+    power_a=power_a-15
+    print("power_a=",power_a)
+
+def power_down_b():
+    power_b=power_b-10
+    print("power_b=",power_b)
+
+def power_up_b():
+    power_b=power_b-15
+    print("power_b=",power_b)
+
 
 def logcolor():
     print("color get", color.get())
@@ -50,12 +66,14 @@ def logcolor():
     print("Reflected", color.get_reflected_light())
 
 def start():
-    motor_a.start(-15)
-    motor_c.start(-15)
+    print("power_a=",power_a)
+    print("power_b=",power_b)
+    motor_a.start(power_a)
+    motor_b.start(power_b)
 
 def stop():
     motor_a.stop()
-    motor_c.stop()
+    motor_b.stop()
 
 def play():
     try:
@@ -101,6 +119,10 @@ keyboard.add_hotkey('ctrl+shift+s',start)
 keyboard.add_hotkey('t',stop)
 keyboard.add_hotkey('p',play)
 keyboard.add_hotkey('x', exit)
+keyboard.add_hotkey('q',power_up_a)
+keyboard.add_hotkey('w',power_down_a)
+keyboard.add_hotkey('e',power_up_b)
+keyboard.add_hotkey('r',power_down_b)
 # keyboard.wait
 stop()
 play_intro()
