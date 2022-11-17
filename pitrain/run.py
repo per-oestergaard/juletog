@@ -58,6 +58,24 @@ def power_up_b():
     power_b=power_b+10
     print("power_b=",power_b)
 
+def power_down_ab():
+    global power_a
+    global power_b
+    power_a=power_a-5
+    power_b=power_b-5
+    print("power_a=",power_a)
+    print("power_b=",power_b)
+    start()
+
+def power_up_ab():
+    global power_a
+    global power_b
+    power_a=power_a+5
+    power_b=power_b+5
+    print("power_a=",power_a)
+    print("power_b=",power_b)
+    start()
+
 
 def logcolor():
     print("color get", color.get())
@@ -129,6 +147,8 @@ keyboard.add_hotkey('q',power_up_a)
 keyboard.add_hotkey('w',power_down_a)
 keyboard.add_hotkey('e',power_up_b)
 keyboard.add_hotkey('r',power_down_b)
+keyboard.add_hotkey('a',power_up_ab)
+keyboard.add_hotkey('z',power_down_ab)
 # keyboard.wait
 stop()
 play_intro()
