@@ -39,19 +39,23 @@ power_a=-10
 power_b=-10
 
 def power_down_a():
+    global power_a
     power_a=power_a-10
     print("power_a=",power_a)
 
 def power_up_a():
-    power_a=power_a-15
+    global power_a
+    power_a=power_a+10
     print("power_a=",power_a)
 
 def power_down_b():
+    global power_b
     power_b=power_b-10
     print("power_b=",power_b)
 
 def power_up_b():
-    power_b=power_b-15
+    global power_b
+    power_b=power_b+10
     print("power_b=",power_b)
 
 
@@ -66,6 +70,8 @@ def logcolor():
     print("Reflected", color.get_reflected_light())
 
 def start():
+    global power_a
+    global power_b
     print("power_a=",power_a)
     print("power_b=",power_b)
     motor_a.start(power_a)
