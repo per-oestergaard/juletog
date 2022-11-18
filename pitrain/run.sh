@@ -5,6 +5,7 @@ echo "run.sh"
 SCRIPT_PATH=`readlink -f "$0"`
 SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
 LOG_DIR="$SCRIPT_DIR/logs"
+mkdir -p $LOG_DIR
 
 while :
 do

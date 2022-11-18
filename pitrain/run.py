@@ -40,8 +40,8 @@ motor_loco = PassiveMotor("A")
 motor_control = PassiveMotor("B")
 #color = ColorDistanceSensor('B')
 
-power_loco_start = -35
-power_control_start = -40
+power_loco_start = -25
+power_control_start = -30
 power_loco = power_loco_start
 power_control = power_control_start
 
@@ -137,7 +137,7 @@ def play_sound(sound):
         mp3 = os.path.join(here, "sounds", sound)
         print(mp3)
         print("spawnlp=", os.spawnlp(os.P_NOWAIT, "/usr/bin/mpg321",
-              "/usr/bin/mpg321", "-g", "25", mp3))
+              "/usr/bin/mpg321", "-g", "35", mp3))
         # playsound(mp3)
     except Exception:
         print("mp3 play did not work")
@@ -229,19 +229,25 @@ while True:
                 play_sound(SOUND_steam1)
             elif counter == 1:
                 start()
+            elif counter == 3:
+                play_sound(SOUND_steam1)
+            elif counter == 4:
                 current_state = STATE_running
         elif current_state == STATE_running:
-            if counter > 60:
-                current_state = STATE_stopped
-            elif counter > 45:
+            if counter == 75:
+                current_state = STATE_stopping
+            if counter == 55:
+                play_sound(SOUND_whitexmas)
+            elif counter == 45 or counter == 48 or counter==51:
                 play_sound(SOUND_trainhorn)
-            elif counter > 30:
-                play_sound(SOUND_canebells)
-            elif counter > 15:
+            elif counter == 30:
+                play_sound(SOUND_trainpassing)
+            elif counter == 15 or counter == 16 or counter == 17:
                 play_sound(SOUND_hornshort)
         elif current_state == STATE_stopping:
-            if counter > 5:
+            if counter == 4 or counter == 5 or counter ==6 or counter ==7:
                 play_sound(SOUND_fart)
+            elif counter == 8:
                 stop()
                 current_state = STATE_stopped
         elif current_state == STATE_stopped:
