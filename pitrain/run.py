@@ -115,21 +115,22 @@ def stop():
     motor_control.stop()
 
 
-SOUND_bell= "ALRMBell_Bell of a level crossing (ID 0899)_BSB.mp3"
-SOUND_dog= "ANMLDog_Old dog barking 1 (ID 2352)_BSB.mp3"
-SOUND_canebells= "BELLAnml_Bells of santa claus 2 (ID 1124)_BSB.mp3"
-SOUND_fart= "FARTDsgn_Flatulence 1 (ID 0111)_BSB.mp3"
-SOUND_fartlong= "FARTMisc_Pony flatulence 2 (ID 1855)_BSB.mp3"
-SOUND_whitexmas= "MUSCToy_White christmas music box (ID 0465)_BS.mp3"
-SOUND_hohoho= "VOXMale_Santa claus oh oh oh 5 (ID 2078)_BSB.mp3"
-SOUND_trainpassing="TRNTram_Passing tram (ID 0278)_BSB.mp3"
-SOUND_trainhorn= "TRNHorn_Whistling train 2 (ID 0226)_BSB.mp3"
-SOUND_hornshort= "TRNHorn_Whistling train 1 (ID 0225)_BSB.mp3"
-SOUND_horn1= "TRNHorn_Train horn (ID 0277)_BSB.mp3"
-SOUND_horn2= "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
-SOUND_steam1= "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
-SOUND_freetest="Free_Test_Data_100KB_MP3.mp3"
-SOUND_water="bubbling_water_1.mp3"
+SOUND_bell = "ALRMBell_Bell of a level crossing (ID 0899)_BSB.mp3"
+SOUND_dog = "ANMLDog_Old dog barking 1 (ID 2352)_BSB.mp3"
+SOUND_canebells = "BELLAnml_Bells of santa claus 2 (ID 1124)_BSB.mp3"
+SOUND_fart = "FARTDsgn_Flatulence 1 (ID 0111)_BSB.mp3"
+SOUND_fartlong = "FARTMisc_Pony flatulence 2 (ID 1855)_BSB.mp3"
+SOUND_whitexmas = "MUSCToy_White christmas music box (ID 0465)_BS.mp3"
+SOUND_hohoho = "VOXMale_Santa claus oh oh oh 5 (ID 2078)_BSB.mp3"
+SOUND_trainpassing = "TRNTram_Passing tram (ID 0278)_BSB.mp3"
+SOUND_trainhorn = "TRNHorn_Whistling train 2 (ID 0226)_BSB.mp3"
+SOUND_hornshort = "TRNHorn_Whistling train 1 (ID 0225)_BSB.mp3"
+SOUND_horn1 = "TRNHorn_Train horn (ID 0277)_BSB.mp3"
+SOUND_horn2 = "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
+SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
+SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
+SOUND_water = "bubbling_water_1.mp3"
+
 
 def play_sound(sound):
     try:
@@ -145,8 +146,10 @@ def play_sound(sound):
 def play():
     play_sound(SOUND_freetest)
 
+
 def play_intro():
     play_sound(SOUND_bell)
+
 
 def play_shutdown():
     play_sound(SOUND_fart)
@@ -154,20 +157,20 @@ def play_shutdown():
 
 def exit():
     stop()
-    print("byebye",flush=True)
+    print("byebye", flush=True)
     os._exit(1)
 
 
 def shutdown_now():
     stop()
-    print("shutdown now",flush=True)
+    print("shutdown now", flush=True)
     play_shutdown()
     os.system('sudo shutdown now')
 
 
 def reboot_now():
     stop()
-    print("reboot now",flush=True)
+    print("reboot now", flush=True)
     play_shutdown()
     os.system('sudo reboot')
 
@@ -185,37 +188,51 @@ keyboard.add_hotkey('r', power_down_control)
 keyboard.add_hotkey('a', power_up_locob)
 keyboard.add_hotkey('z', power_down_locob)
 
+
+def set_starting_state():
+    global current_state
+    current_state = STATE_starting
+
+
+def set_stopping_state():
+    global current_state
+    current_state = STATE_stopping
+
+
+keyboard.add_hotkey('n', set_starting_state)
+keyboard.add_hotkey('m', set_stopping_state)
+
 # keyboard.wait
 stop()
 play_intro()
 
 ctrlc_count = 0
 
-STATE_stopped=0
-STATE_starting=1
-STATE_running=2
-STATE_stopping=3
+STATE_stopped = 0
+STATE_starting = 1
+STATE_running = 2
+STATE_stopping = 3
 
-current_state=STATE_stopped
-last_state=STATE_stopped
-counter=0
+current_state = STATE_stopped
+last_state = STATE_stopped
+counter = 0
 
 while True:
     try:
-        print("", flush=True)
+        print("current_state=", current_state, " last_state=", last_state, " counter=", counter, flush=True)
         # print("motor=",motor_loco.get())
     #    logcolor()
         log_volt()
-        counter+=1
+        counter += 1
         if current_state == STATE_starting:
             if counter == 0:
                 play_sound(SOUND_steam1)
             elif counter == 1:
                 start()
-                current_state=STATE_running
+                current_state = STATE_running
         elif current_state == STATE_running:
             if counter > 60:
-                current_state=STATE_stopped
+                current_state = STATE_stopped
             elif counter > 45:
                 play_sound(SOUND_trainhorn)
             elif counter > 30:
@@ -226,13 +243,15 @@ while True:
             if counter > 5:
                 play_sound(SOUND_fart)
                 stop()
-                current_state=STATE_stopped
+                current_state = STATE_stopped
         elif current_state == STATE_stopped:
-            print("stopped",flush=True)
+            print("stopped", flush=True)
         else:
-            print("invalid state: ",current_state)
+            print("invalid state: ", current_state)
+        if current_state != last_state:
+            counter = 0
+            last_state = current_state
 
-        last_state=current_state
         time.sleep(1)
         # c = color.wait_for_new_color()
         # print("Found new color", c)
