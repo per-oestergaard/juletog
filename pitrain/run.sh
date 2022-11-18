@@ -4,17 +4,18 @@ echo "run.sh"
 
 SCRIPT_PATH=`readlink -f "$0"`
 SCRIPT_DIR=`dirname "$SCRIPT_PATH"`
+LOG_DIR="$SCRIPT_DIR/logs"
 
 while :
 do
 echo "run.sh"
 git pull
-  sudo python $SCRIPT_DIR/run.py > ~/run.log 2> ~/run.err
+  sudo python $SCRIPT_DIR/run.py > $LOG_DIR/run.log 2> $LOG_DIR/run.err
   echo "---------"
   echo "run.log"
-  cat ~/run.log
+  cat $LOG_DIR/run.log
   echo "-----"
   echo "run.err"
-  cat ~/run.err
+  cat $LOG_DIR/run.err
   sleep 15s
 done
