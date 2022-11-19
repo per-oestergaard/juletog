@@ -40,8 +40,8 @@ motor_loco = PassiveMotor("A")
 motor_control = PassiveMotor("B")
 #color = ColorDistanceSensor('B')
 
-power_loco_start = -25
-power_control_start = -30
+power_loco_start = -28
+power_control_start = -28
 power_loco = power_loco_start
 power_control = power_control_start
 
@@ -175,18 +175,25 @@ def reboot_now():
     os.system('sudo reboot')
 
 
-keyboard.add_hotkey('s', start)
+# keyboard.add_hotkey('s', start)
 keyboard.add_hotkey('ctrl+shift+s', shutdown_now)
 keyboard.add_hotkey('ctrl+shift+r', reboot_now)
 keyboard.add_hotkey('t', stop)
-keyboard.add_hotkey('p', play)
+keyboard.add_hotkey('p', lambda: play_sound(SOUND_fart))
+keyboard.add_hotkey('w', lambda: play_sound(SOUND_whitexmas))
+keyboard.add_hotkey('h', lambda: play_sound(SOUND_hohoho))
+keyboard.add_hotkey('f', lambda: play_sound(SOUND_fartlong))
+keyboard.add_hotkey('k', lambda: play_sound(SOUND_horn1))
+keyboard.add_hotkey('j', lambda: play_sound(SOUND_horn2))
+keyboard.add_hotkey('d', lambda: play_sound(SOUND_dog))
+keyboard.add_hotkey('c', lambda: play_sound(SOUND_canebells))
 keyboard.add_hotkey('x', exit)
-keyboard.add_hotkey('q', power_up_loco)
-keyboard.add_hotkey('w', power_down_loco)
-keyboard.add_hotkey('e', power_up_control)
-keyboard.add_hotkey('r', power_down_control)
-keyboard.add_hotkey('a', power_up_locob)
-keyboard.add_hotkey('z', power_down_locob)
+# keyboard.add_hotkey('q', power_up_loco)
+# keyboard.add_hotkey('w', power_down_loco)
+# keyboard.add_hotkey('e', power_up_control)
+# keyboard.add_hotkey('r', power_down_control)
+# keyboard.add_hotkey('a', power_up_locob)
+# keyboard.add_hotkey('z', power_down_locob)
 
 
 def set_starting_state():
@@ -236,7 +243,7 @@ while True:
         elif current_state == STATE_running:
             if counter == 75:
                 current_state = STATE_stopping
-            if counter == 55:
+            elif counter == 57:
                 play_sound(SOUND_whitexmas)
             elif counter == 45 or counter == 48 or counter==51:
                 play_sound(SOUND_trainhorn)

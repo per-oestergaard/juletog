@@ -18,5 +18,5 @@ git pull
   echo "-----"
   echo "run.err"
   cat $LOG_DIR/run.err
-  sleep 15s
+  sleep 10s
 done
