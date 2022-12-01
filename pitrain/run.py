@@ -21,10 +21,11 @@ print(hat.get())
 
 
 def log_volt():
-    print("HAT voltage ", hat.get_vin())
+    print("{:>4}V".format(hat.get_vin()),end=" ")
 
 
 log_volt()
+print()
 # hat.green_led(True)
 # time.sleep(1)
 # hat.orange_led(True)
@@ -37,68 +38,69 @@ log_volt()
 here = os.path.dirname(__file__)
 
 motor_loco = PassiveMotor("A")
-motor_control = PassiveMotor("B")
-#color = ColorDistanceSensor('B')
+motor_control = PassiveMotor("D")
+color = ColorDistanceSensor('C')
 
-power_loco_start = -28
-power_control_start = -28
+power_loco_start = -25
+power_control_start = -23
 power_loco = power_loco_start
 power_control = power_control_start
+power_change_increment=1
 
 
 def power_down_loco():
     global power_loco
-    power_loco = power_loco-5
+    power_loco = power_loco-power_change_increment
     print("power_loco=", power_loco)
 
 
 def power_up_loco():
     global power_loco
-    power_loco = power_loco+5
+    power_loco = power_loco+power_change_increment
     print("power_loco=", power_loco)
 
 
 def power_down_control():
     global power_control
-    power_control = power_control-5
+    power_control = power_control-power_change_increment
     print("power_control=", power_control)
 
 
 def power_up_control():
     global power_control
-    power_control = power_control+5
+    power_control = power_control+power_change_increment
     print("power_control=", power_control)
 
 
-def power_down_locob():
+def power_down_both():
     global power_loco
     global power_control
-    power_loco = power_loco-5
-    power_control = power_control-5
+    power_loco = power_loco-power_change_increment
+    power_control = power_control-power_change_increment
     print("power_loco=", power_loco)
     print("power_control=", power_control)
-    start()
+    # start()
 
 
-def power_up_locob():
+def power_up_both():
     global power_loco
     global power_control
-    power_loco = power_loco+5
-    power_control = power_control+5
+    power_loco = power_loco+power_change_increment
+    power_control = power_control+power_change_increment
     print("power_loco=", power_loco)
     print("power_control=", power_control)
-    start()
+    # start()
 
 
 def logcolor():
-    print("color get", color.get())
-    print("color", color.get_color())
+    print("color get", color.get(),end=" ")
+    print(color.get_color(),end=" ")
     rgb = color.get_color_rgb()
-    print("RGB", rgb)
-    print("HSV", color.rgb_to_hsv(rgb[0], rgb[1], rgb[2]))
-    print("Segment color", color.segment_color(rgb[0], rgb[1], rgb[2]))
-    print("Distance", color.get_distance())
-    print("Reflected", color.get_reflected_light())
+    print("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]),end=" ")
+    # print("HSV", color.rgb_to_hsv(rgb[0], rgb[1], rgb[2]),end=" ")
+    print("Segment color", color.segment_color(rgb[0], rgb[1], rgb[2]),end=" ")
+    print("Dist. {:>3}".format(color.get_distance()),end=" ")
+    print("Reflect {:>3}".format(color.get_reflected_light()),end=" ")
 
 
 def start():
@@ -179,6 +181,7 @@ def reboot_now():
 keyboard.add_hotkey('ctrl+shift+s', shutdown_now)
 keyboard.add_hotkey('ctrl+shift+r', reboot_now)
 keyboard.add_hotkey('t', stop)
+keyboard.add_hotkey('g', start)
 keyboard.add_hotkey('p', lambda: play_sound(SOUND_fart))
 keyboard.add_hotkey('w', lambda: play_sound(SOUND_whitexmas))
 keyboard.add_hotkey('h', lambda: play_sound(SOUND_hohoho))
@@ -188,12 +191,12 @@ keyboard.add_hotkey('j', lambda: play_sound(SOUND_horn2))
 keyboard.add_hotkey('d', lambda: play_sound(SOUND_dog))
 keyboard.add_hotkey('c', lambda: play_sound(SOUND_canebells))
 keyboard.add_hotkey('x', exit)
-# keyboard.add_hotkey('q', power_up_loco)
-# keyboard.add_hotkey('w', power_down_loco)
-# keyboard.add_hotkey('e', power_up_control)
-# keyboard.add_hotkey('r', power_down_control)
-# keyboard.add_hotkey('a', power_up_locob)
-# keyboard.add_hotkey('z', power_down_locob)
+keyboard.add_hotkey('q', power_up_loco)
+keyboard.add_hotkey('a', power_down_loco)
+keyboard.add_hotkey('w', power_up_control)
+keyboard.add_hotkey('s', power_down_control)
+keyboard.add_hotkey('e', power_up_both)
+keyboard.add_hotkey('d', power_down_both)
 
 
 def set_starting_state():
@@ -226,10 +229,11 @@ counter = 0
 
 while True:
     try:
-        print("current_state=", current_state, " last_state=", last_state, " counter=", counter, flush=True)
+        print("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), flush=True,end=" ")
         # print("motor=",motor_loco.get())
-    #    logcolor()
+        logcolor()
         log_volt()
+        print("power loco {:>4} ctl {:>4}".format(power_loco,power_control), end=" ")
         counter += 1
         if current_state == STATE_starting:
             if counter == 0:
@@ -258,9 +262,11 @@ while True:
                 stop()
                 current_state = STATE_stopped
         elif current_state == STATE_stopped:
-            print("stopped", flush=True)
+            # print("stopped", flush=True)
+            dummy=1
         else:
             print("invalid state: ", current_state)
+        print("",flush=True)
         if current_state != last_state:
             counter = 0
             last_state = current_state
