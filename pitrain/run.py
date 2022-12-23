@@ -93,7 +93,8 @@ def power_up_both():
 
 
 def logcolor():
-    print("color get", color.get(),end=" ")
+    print("color",end=" ")
+    # print("color get", color.get(),end=" ")
     print(color.get_color(),end=" ")
     rgb = color.get_color_rgb()
     print("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]),end=" ")
@@ -177,26 +178,6 @@ def reboot_now():
     os.system('sudo reboot')
 
 
-# keyboard.add_hotkey('s', start)
-keyboard.add_hotkey('ctrl+shift+s', shutdown_now)
-keyboard.add_hotkey('ctrl+shift+r', reboot_now)
-keyboard.add_hotkey('t', stop)
-keyboard.add_hotkey('g', start)
-keyboard.add_hotkey('p', lambda: play_sound(SOUND_fart))
-keyboard.add_hotkey('w', lambda: play_sound(SOUND_whitexmas))
-keyboard.add_hotkey('h', lambda: play_sound(SOUND_hohoho))
-keyboard.add_hotkey('f', lambda: play_sound(SOUND_fartlong))
-keyboard.add_hotkey('k', lambda: play_sound(SOUND_horn1))
-keyboard.add_hotkey('j', lambda: play_sound(SOUND_horn2))
-keyboard.add_hotkey('d', lambda: play_sound(SOUND_dog))
-keyboard.add_hotkey('c', lambda: play_sound(SOUND_canebells))
-keyboard.add_hotkey('x', exit)
-keyboard.add_hotkey('q', power_up_loco)
-keyboard.add_hotkey('a', power_down_loco)
-keyboard.add_hotkey('w', power_up_control)
-keyboard.add_hotkey('s', power_down_control)
-keyboard.add_hotkey('e', power_up_both)
-keyboard.add_hotkey('d', power_down_both)
 
 
 def set_starting_state():
@@ -209,8 +190,31 @@ def set_stopping_state():
     current_state = STATE_stopping
 
 
-keyboard.add_hotkey('n', set_starting_state)
-keyboard.add_hotkey('m', set_stopping_state)
+keyboard.add_hotkey('1', lambda: play_sound(SOUND_fart))
+keyboard.add_hotkey('2', lambda: play_sound(SOUND_whitexmas))
+keyboard.add_hotkey('3', lambda: play_sound(SOUND_hohoho))
+keyboard.add_hotkey('4', lambda: play_sound(SOUND_fartlong))
+keyboard.add_hotkey('5', lambda: play_sound(SOUND_horn1))
+keyboard.add_hotkey('6', lambda: play_sound(SOUND_horn2))
+keyboard.add_hotkey('7', lambda: play_sound(SOUND_dog))
+keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
+
+keyboard.add_hotkey('ctrl+shift+q', power_up_loco)
+keyboard.add_hotkey('ctrl+shift+a', power_down_loco)
+keyboard.add_hotkey('ctrl+shift+w', power_up_control)
+keyboard.add_hotkey('ctrl+shift+s', power_down_control)
+keyboard.add_hotkey('ctrl+shift+e', power_up_both)
+keyboard.add_hotkey('ctrl+shift+d', power_down_both)
+
+keyboard.add_hotkey('g', stop)
+keyboard.add_hotkey('t', start)
+keyboard.add_hotkey('s', set_starting_state)
+keyboard.add_hotkey('x', set_stopping_state)
+
+keyboard.add_hotkey('ctrl+shift+x', exit)
+keyboard.add_hotkey('ctrl+shift+s', shutdown_now)
+keyboard.add_hotkey('ctrl+shift+r', reboot_now)
+
 
 # keyboard.wait
 stop()
@@ -263,14 +267,14 @@ while True:
                 current_state = STATE_stopped
         elif current_state == STATE_stopped:
             # print("stopped", flush=True)
-            dummy=1
+            stop()
         else:
             print("invalid state: ", current_state)
-        print("",flush=True)
         if current_state != last_state:
             counter = 0
             last_state = current_state
 
+        print(" ...",flush=True)
         time.sleep(1)
         # c = color.wait_for_new_color()
         # print("Found new color", c)

@@ -11,8 +11,12 @@ while :
 do
 echo "run.sh"
 git pull
+
+  python pitrain/testhat.py || sudo reboot now
+
   sudo python $SCRIPT_DIR/run.py > $LOG_DIR/run.log 2> $LOG_DIR/run.err
   echo "---------"
+
   echo "status: $?"
   echo "run.log"
   cat $LOG_DIR/run.log
