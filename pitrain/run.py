@@ -133,8 +133,10 @@ SOUND_horn2 = "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
 SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
-SOUND_glædeligjul = "GlædeligJul.mp3"
+SOUND_GlædeligJul = "GlædeligJul.mp3"
 SOUND_detjuldetcool = "detjuldetcool.mp3"
+SOUND_AntonBukser = "AntonBukser.mp3"
+SOUND_KomJulSneGaver = "KomJulSneGaver.mp3"
 
 def play_sound(sound):
     try:
@@ -200,7 +202,10 @@ keyboard.add_hotkey('6', lambda: play_sound(SOUND_horn2))
 keyboard.add_hotkey('7', lambda: play_sound(SOUND_dog))
 keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
 keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
-keyboard.add_hotkey('9', lambda: play_sound(SOUND_detjuldetcool))
+keyboard.add_hotkey('9', lambda: play_sound(SOUND_GlædeligJul))
+keyboard.add_hotkey('0', lambda: play_sound(SOUND_detjuldetcool))
+keyboard.add_hotkey('+', lambda: play_sound(SOUND_AntonBukser))
+keyboard.add_hotkey('½', lambda: play_sound(SOUND_KomJulSneGaver))
 
 keyboard.add_hotkey('ctrl+shift+q', power_up_loco)
 keyboard.add_hotkey('ctrl+shift+a', power_down_loco)
@@ -254,12 +259,14 @@ while True:
         elif current_state == STATE_running:
             if counter == 75:
                 current_state = STATE_stopping
+            elif counter == 65:
+                play_sound(SOUND_KomJulSneGaver)
             elif counter == 57:
                 play_sound(SOUND_whitexmas)
             elif counter == 45 or counter == 48 or counter==51:
                 play_sound(SOUND_trainhorn)
             elif counter == 40 :
-                play_sound(SOUND_glædeligjul)
+                play_sound(SOUND_GlædeligJul)
             elif counter == 30:
                 play_sound(SOUND_trainpassing)
             elif counter == 20:
