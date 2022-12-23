@@ -262,7 +262,9 @@ while True:
                 play_sound(SOUND_glædeligjul)
             elif counter == 30:
                 play_sound(SOUND_trainpassing)
-            elif counter == 15 or counter == 16 or counter == 17:
+            elif counter == 20:
+                play_sound(SOUND_detjuldetcool)
+            elif counter == 10 or counter == 11 or counter == 12:
                 play_sound(SOUND_hornshort)
         elif current_state == STATE_stopping:
             if counter == 4 or counter == 5 or counter ==6 or counter ==7:
