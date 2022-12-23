@@ -134,6 +134,7 @@ SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
 SOUND_glædeligjul = "GlædeligJul.mp3"
+SOUND_detjuldetcool = "detjuldetcool.mp3"
 
 def play_sound(sound):
     try:
@@ -198,6 +199,8 @@ keyboard.add_hotkey('5', lambda: play_sound(SOUND_horn1))
 keyboard.add_hotkey('6', lambda: play_sound(SOUND_horn2))
 keyboard.add_hotkey('7', lambda: play_sound(SOUND_dog))
 keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
+keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
+keyboard.add_hotkey('9', lambda: play_sound(SOUND_detjuldetcool))
 
 keyboard.add_hotkey('ctrl+shift+q', power_up_loco)
 keyboard.add_hotkey('ctrl+shift+a', power_down_loco)

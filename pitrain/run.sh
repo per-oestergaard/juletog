@@ -12,7 +12,7 @@ do
 echo "run.sh"
 git pull
 
-  python pitrain/testhat.py || sudo reboot now
+  python pitrain/testhat.py || { sudo mpg321 -g 50 ./pitrain/sounds/No-HAT.mp3; sleep 10; sudo reboot now; }
 
   sudo python $SCRIPT_DIR/run.py > $LOG_DIR/run.log 2> $LOG_DIR/run.err
   echo "---------"
