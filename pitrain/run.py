@@ -133,7 +133,7 @@ SOUND_horn2 = "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
 SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
-
+SOUND_glædeligjul = "GlædeligJul.mp3"
 
 def play_sound(sound):
     try:
@@ -255,6 +255,8 @@ while True:
                 play_sound(SOUND_whitexmas)
             elif counter == 45 or counter == 48 or counter==51:
                 play_sound(SOUND_trainhorn)
+            elif counter == 40 :
+                play_sound(SOUND_glædeligjul)
             elif counter == 30:
                 play_sound(SOUND_trainpassing)
             elif counter == 15 or counter == 16 or counter == 17:
