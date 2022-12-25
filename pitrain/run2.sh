@@ -11,7 +11,7 @@ date %m%d
 echo "`date +%H:%M:%S` git pull"
 git pull
 echo "`date +%H:%M:%S` python testhat.py"
-python $SCRIPT_DIR/testhat.py || { echo "`date +%H:%M:%S` no hat :("; sudo mpg321 -g 50 $SCRIPT_DIR/sounds/No-HAT.mp3; sleep 120; sudo reboot now; }
+python $SCRIPT_DIR/testhat.py || { echo "`date +%H:%M:%S` no hat :("; sudo mpg321 -g 50 $SCRIPT_DIR/sounds/No-HAT.mp3; sleep 60; sudo reboot now; }
 echo "`date +%H:%M:%S` python run.py"
 sudo python $SCRIPT_DIR/run.py
 echo "`date +%H:%M:%S` sleep"
