@@ -12,6 +12,7 @@ import os
 # import subprocess
 # import pynput.ke
 import time
+import random
 # from playsound import playsound
 
 print("hello world")
@@ -133,10 +134,12 @@ SOUND_horn2 = "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
 SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
-SOUND_GlædeligJul = "GlædeligJul.mp3"
+SOUND_GlaedeligJul = "GlaedeligJul.mp3"
 SOUND_detjuldetcool = "detjuldetcool.mp3"
 SOUND_AntonBukser = "AntonBukser.mp3"
 SOUND_KomJulSneGaver = "KomJulSneGaver.mp3"
+
+idle_sounds=[SOUND_GlaedeligJul,SOUND_AntonBukser, SOUND_detjuldetcool,SOUND_canebells,SOUND_dog,SOUND_hohoho,SOUND_fartlong]
 
 def play_sound(sound):
     try:
@@ -202,7 +205,7 @@ keyboard.add_hotkey('6', lambda: play_sound(SOUND_horn2))
 keyboard.add_hotkey('7', lambda: play_sound(SOUND_dog))
 keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
 keyboard.add_hotkey('8', lambda: play_sound(SOUND_canebells))
-keyboard.add_hotkey('9', lambda: play_sound(SOUND_GlædeligJul))
+keyboard.add_hotkey('9', lambda: play_sound(SOUND_GlaedeligJul))
 keyboard.add_hotkey('0', lambda: play_sound(SOUND_detjuldetcool))
 keyboard.add_hotkey('+', lambda: play_sound(SOUND_AntonBukser))
 keyboard.add_hotkey('½', lambda: play_sound(SOUND_KomJulSneGaver))
@@ -238,15 +241,17 @@ STATE_stopping = 3
 current_state = STATE_stopped
 last_state = STATE_stopped
 counter = 0
+global_counter = 0
 
 while True:
     try:
-        print("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), flush=True,end=" ")
+        print("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), " gcounter={:>3}".format(global_counter), flush=True,end=" ")
         # print("motor=",motor_loco.get())
         logcolor()
         log_volt()
         print("power loco {:>4} ctl {:>4}".format(power_loco,power_control), end=" ")
         counter += 1
+        global_counter += 1
         if current_state == STATE_starting:
             if counter == 0:
                 play_sound(SOUND_steam1)
@@ -266,7 +271,7 @@ while True:
             elif counter == 45 or counter == 48 or counter==51:
                 play_sound(SOUND_trainhorn)
             elif counter == 40 :
-                play_sound(SOUND_GlædeligJul)
+                play_sound(SOUND_GlaedeligJul)
             elif counter == 30:
                 play_sound(SOUND_trainpassing)
             elif counter == 20:
@@ -282,6 +287,11 @@ while True:
         elif current_state == STATE_stopped:
             # print("stopped", flush=True)
             stop()
+            if global_counter % 50 == 0:
+                random_idle_sound=random.choice (idle_sounds)
+                play_sound(random_idle_sound)
+            if global_counter % 300 == 0:
+                set_starting_state()
         else:
             print("invalid state: ", current_state)
         if current_state != last_state:
