@@ -19,7 +19,7 @@ import random
 
 print("hello world")
 
-hat = Hat()
+hat = Hat(debug=True)
 print(hat.get())
 
 def eprint(*args, **kwargs):
@@ -44,6 +44,19 @@ def log_volt():
 
 lognow()
 log_volt()
+logln()
+
+def is_connected_to_charger():
+    return hat.get_vin() > 7.60
+
+whatif_motor=True
+lognow()
+if (is_connected_to_charger()):
+    log("connected to charger")
+else:
+    log("not connected to charger")
+    whatif_motor=False
+
 logln()
 
 orange_led=False
@@ -140,17 +153,23 @@ def logcolor():
 def start():
     global power_loco
     global power_control
+    global whatif_motor
     lognow()
+    if whatif_motor:
+        log("WHATIF")
     log("power_loco={}".format(power_loco))
     log("power_control={}".format(power_control))
     logln()
-    motor_loco.start(power_loco)
-    motor_control.start(power_control)
+    if not whatif_motor:
+        motor_loco.start(power_loco)
+        motor_control.start(power_control)
 
 
 def stop():
-    motor_loco.stop()
-    motor_control.stop()
+    global whatif_motor
+    if not whatif_motor:
+        motor_loco.stop()
+        motor_control.stop()
 
 
 SOUND_bell = "ALRMBell_Bell of a level crossing (ID 0899)_BSB.mp3"
@@ -314,6 +333,8 @@ while True:
         logcolor()
         log_volt()
         log_led()
+        if whatif_motor:
+            log("WHATIF")
         log("power loco {:>4} ctl {:>4}".format(power_loco,power_control))
         logln()
         counter += 1
