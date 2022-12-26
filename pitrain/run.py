@@ -9,6 +9,7 @@ from buildhat import Motor
 from buildhat import PassiveMotor, Hat
 import keyboard
 import os
+import datetime
 # import subprocess
 # import pynput.ke
 import time
@@ -21,20 +22,33 @@ hat = Hat()
 print(hat.get())
 
 
+def lognow():
+    now=datetime.datetime.now()
+    print(now.strftime("%H:%M:%S"), end=" ")
+
+def logln():
+    print("", flush=True)
+
+def log(text):
+    print(text,end=" ")
+
 def log_volt():
-    print("{:>4}V".format(hat.get_vin()),end=" ")
+    log("{:>4}V".format(hat.get_vin()),end=" ")
 
-
+lognow()
 log_volt()
-print()
-# hat.green_led(True)
-# time.sleep(1)
-# hat.orange_led(True)
-# time.sleep(1)
-# hat.green_led(False)
-# time.sleep(1)
-# hat.orange_led(False)
-# time.sleep(1)
+logln()
+
+orange_led=False
+green_led=False
+
+def led_show():
+    global orange_led
+    global green_led
+    orange_led=random.random()
+    green_led=random.random()
+    hat.green_led(green_led)
+    hat.orange_led(orange_led)
 
 here = os.path.dirname(__file__)
 
@@ -94,22 +108,22 @@ def power_up_both():
 
 
 def logcolor():
-    print("color",end=" ")
-    # print("color get", color.get(),end=" ")
-    print(color.get_color(),end=" ")
+    log("color")
+    log(color.get_color())
     rgb = color.get_color_rgb()
-    print("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]),end=" ")
-    # print("HSV", color.rgb_to_hsv(rgb[0], rgb[1], rgb[2]),end=" ")
-    print("Segment color", color.segment_color(rgb[0], rgb[1], rgb[2]),end=" ")
-    print("Dist. {:>3}".format(color.get_distance()),end=" ")
-    print("Reflect {:>3}".format(color.get_reflected_light()),end=" ")
+    log("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]))
+    log("Segment color {}".format(color.segment_color(rgb[0], rgb[1], rgb[2])))
+    log("Dist. {:>3}".format(color.get_distance()))
+    log("Reflect {:>3}".format(color.get_reflected_light()))
 
 
 def start():
     global power_loco
     global power_control
-    print("power_loco=", power_loco)
-    print("power_control=", power_control)
+    lognow()
+    log("power_loco={}".format(power_loco))
+    log("power_control={}".format(power_control))
+    logln()
     motor_loco.start(power_loco)
     motor_control.start(power_control)
 
@@ -144,12 +158,16 @@ idle_sounds=[SOUND_GlaedeligJul,SOUND_AntonBukser, SOUND_detjuldetcool,SOUND_can
 def play_sound(sound):
     try:
         mp3 = os.path.join(here, "sounds", sound)
-        print(mp3)
-        print("spawnlp=", os.spawnlp(os.P_NOWAIT, "/usr/bin/mpg321",
-              "/usr/bin/mpg321", "-g", "35", mp3))
+        lognow()
+        log(mp3)
+        log("spawnlp={}".format(os.spawnlp(os.P_NOWAIT, "/usr/bin/mpg321",
+              "/usr/bin/mpg321", "-g", "35", mp3)))
+        logln()
         # playsound(mp3)
     except Exception:
-        print("mp3 play did not work")
+        lognow()
+        log("mp3 play did not work")
+        logln()
 
 
 def play():
@@ -166,20 +184,26 @@ def play_shutdown():
 
 def exit():
     stop()
-    print("byebye", flush=True)
+    lognow()
+    log("byebye")
+    logln()
     os._exit(1)
 
 
 def shutdown_now():
     stop()
-    print("shutdown now", flush=True)
+    lognow()
+    log("shutdown now")
+    logln()
     play_shutdown()
     os.system('sudo shutdown now')
 
 
 def reboot_now():
     stop()
-    print("reboot now", flush=True)
+    lognow()
+    log("reboot now")
+    logln()
     play_shutdown()
     os.system('sudo reboot')
 
@@ -245,11 +269,14 @@ global_counter = 0
 
 while True:
     try:
-        print("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), " gcounter={:>3}".format(global_counter), flush=True,end=" ")
+        led_show
+        lognow()
+        log("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), " gcounter={:>3}".format(global_counter))
         # print("motor=",motor_loco.get())
         logcolor()
         log_volt()
-        print("power loco {:>4} ctl {:>4}".format(power_loco,power_control), end=" ")
+        log("power loco {:>4} ctl {:>4}".format(power_loco,power_control))
+        logln()
         counter += 1
         global_counter += 1
         if current_state == STATE_starting:
@@ -293,12 +320,16 @@ while True:
             if global_counter % 300 == 0:
                 set_starting_state()
         else:
-            print("invalid state: ", current_state)
+            lognow()
+            log("invalid state: {}".format(current_state))
+            logln()
         if current_state != last_state:
             counter = 0
             last_state = current_state
 
-        print(" ...",flush=True)
+        lognow()
+        log(" ...")
+        logln()
         time.sleep(1)
         # c = color.wait_for_new_color()
         # print("Found new color", c)
@@ -306,7 +337,11 @@ while True:
         ctrlc_count = ctrlc_count+1
         if ctrlc_count > 10:
             break
-        print("You cannot stop me")
+        lognow()
+        log("You cannot stop me")
+        logln()
 
-print("You could stop me anyway")
+lognow()
+log("You could stop me anyway")
+logln()
 stop()
