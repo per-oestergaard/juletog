@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+# set -x
 echo "`date +%H:%M:%S` run2.sh"
 
 SCRIPT_PATH=`readlink -f "$0"`

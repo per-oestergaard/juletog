@@ -10,6 +10,7 @@ from buildhat import PassiveMotor, Hat
 import keyboard
 import os
 import datetime
+import sys
 # import subprocess
 # import pynput.ke
 import time
@@ -21,6 +22,12 @@ print("hello world")
 hat = Hat()
 print(hat.get())
 
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
+def elogtimestamp():
+    now=datetime.datetime.now()
+    eprint(now.strftime("%H:%M:%S"))
 
 def lognow():
     now=datetime.datetime.now()
@@ -33,7 +40,7 @@ def log(text):
     print(text,end=" ")
 
 def log_volt():
-    log("{:>4}V".format(hat.get_vin()),end=" ")
+    log("{:>4}V".format(hat.get_vin()))
 
 lognow()
 log_volt()
@@ -112,7 +119,7 @@ def logcolor():
     log(color.get_color())
     rgb = color.get_color_rgb()
     log("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]))
-    log("Segment color {}".format(color.segment_color(rgb[0], rgb[1], rgb[2])))
+    log("Segment color={}".format(color.segment_color(rgb[0], rgb[1], rgb[2])))
     log("Dist. {:>3}".format(color.get_distance()))
     log("Reflect {:>3}".format(color.get_reflected_light()))
 
@@ -271,7 +278,7 @@ while True:
     try:
         led_show
         lognow()
-        log("state current=", current_state, " last=", last_state, " counter={:>3}".format(counter), " gcounter={:>3}".format(global_counter))
+        log("state current={} last={} counter={:>3} gcounter={:>3}".format(current_state, last_state, counter,global_counter))
         # print("motor=",motor_loco.get())
         logcolor()
         log_volt()
@@ -279,6 +286,9 @@ while True:
         logln()
         counter += 1
         global_counter += 1
+        if global_counter % 15 == 0:
+            elogtimestamp()
+
         if current_state == STATE_starting:
             if counter == 0:
                 play_sound(SOUND_steam1)
@@ -317,7 +327,7 @@ while True:
             if global_counter % 50 == 0:
                 random_idle_sound=random.choice (idle_sounds)
                 play_sound(random_idle_sound)
-            if global_counter % 300 == 0:
+            if global_counter % 290 == 0:
                 set_starting_state()
         else:
             lognow()
