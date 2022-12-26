@@ -57,6 +57,19 @@ def led_show():
     hat.green_led(green_led)
     hat.orange_led(orange_led)
 
+def log_led():
+    global orange_led
+    global green_led
+    if orange_led:
+        orange="O"
+    else:
+        orange=" "
+    if green_led:
+        green="O"
+    else:
+        green=" "
+    log("LED {}[}".format(orange,green))
+
 here = os.path.dirname(__file__)
 
 motor_loco = PassiveMotor("A")
@@ -159,6 +172,7 @@ SOUND_GlaedeligJul = "glaedeligJul.mp3"
 SOUND_detjuldetcool = "detjuldetcool.mp3"
 SOUND_AntonBukser = "AntonBukser.mp3"
 SOUND_KomJulSneGaver = "KomJulSneGaver.mp3"
+SOUND_no_HAT="No-HAT.mp3"
 
 idle_sounds=[SOUND_GlaedeligJul,SOUND_AntonBukser, SOUND_detjuldetcool,SOUND_canebells,SOUND_dog,SOUND_hohoho,SOUND_fartlong]
 
@@ -273,15 +287,33 @@ current_state = STATE_stopped
 last_state = STATE_stopped
 counter = 0
 global_counter = 0
+last_global_counter = global_counter
+
+import threading
+
+def hat_monitor(every_n_seconds):
+    global global_counter
+    global last_global_counter
+    threading.Timer(every_n_seconds, hat_monitor).start()
+    # put your action here
+    if global_counter==last_global_counter:
+        lognow()
+        log("hat_monitor: current={} last={}".format(global_counter,last_global_counter))
+        logln()
+        play_sound(SOUND_no_HAT)
+    last_global_counter=global_counter
+
+#to start
+hat_monitor(30)
 
 while True:
     try:
         led_show
         lognow()
         log("state current={} last={} counter={:>3} gcounter={:>3}".format(current_state, last_state, counter,global_counter))
-        # print("motor=",motor_loco.get())
         logcolor()
         log_volt()
+        log_led()
         log("power loco {:>4} ctl {:>4}".format(power_loco,power_control))
         logln()
         counter += 1
