@@ -59,6 +59,10 @@ def is_connected_to_charger():
     return hat.get_vin() > 7.80
 
 
+def needs_recharge():
+    return hat.get_vin() < 7.0
+
+
 whatif_motor = True
 lognow()
 if (is_connected_to_charger()):
@@ -93,7 +97,7 @@ def log_led():
         green = "O"
     else:
         green = " "
-    log("LED {}[}".format(orange, green))
+    log("LED {}{}".format(orange, green))
 
 
 here = os.path.dirname(__file__)
@@ -190,7 +194,7 @@ SOUND_dog = "ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3"
 SOUND_canebells = "BELLAnml_Bells_of_santa_claus_2_ID_1124_BSB.mp3"
 SOUND_fart = "FARTDsgn_Flatulence_1_ID_0111_BSB.mp3"
 SOUND_fartlong = "FARTMisc_Pony_flatulence_2_ID_1855_BSB.mp3"
-SOUND_whitexmas = "MUSCToy_White_christmas_music_box_ID_0465_BS.mp3"
+SOUND_whitexmas = "MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3"
 SOUND_hohoho = "VOXMale_Santa_claus_oh_oh_oh_5_ID_2078_BSB.mp3"
 SOUND_trainpassing = "TRNTram_Passing_tram_ID_0278_BSB.mp3"
 SOUND_trainhorn = "TRNHorn_Whistling_train_2_ID_0226_BSB.mp3"
@@ -200,11 +204,12 @@ SOUND_horn2 = "TRNHorn_Train_horn_2_ID_2846_BSB.mp3"
 SOUND_steam1 = "TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
-SOUND_GlaedeligJul = "glaedeligJul.mp3"
+SOUND_GlaedeligJul = "GlaedeligJul.mp3"
 SOUND_detjuldetcool = "detjuldetcool.mp3"
 SOUND_AntonBukser = "AntonBukser.mp3"
 SOUND_KomJulSneGaver = "KomJulSneGaver.mp3"
 SOUND_no_HAT = "No-HAT.mp3"
+SOUND_Sulten_lades = "Sulten_lades.mp3"
 
 idle_sounds = [SOUND_GlaedeligJul, SOUND_AntonBukser, SOUND_detjuldetcool,
                SOUND_canebells, SOUND_dog, SOUND_hohoho, SOUND_fartlong]
@@ -322,22 +327,24 @@ global_counter = 0
 last_global_counter = global_counter
 
 
-def hat_monitor(every_n_seconds):
+def hat_monitor(every_n_seconds=30):
     global global_counter
     global last_global_counter
     threading.Timer(every_n_seconds, hat_monitor).start()
     # put your action here
-    if global_counter == last_global_counter:
+    if last_global_counter > 0 and global_counter == last_global_counter:
         lognow()
         log("hat_monitor: current={} last={}".format(
             global_counter, last_global_counter))
         logln()
         play_sound(SOUND_no_HAT)
+    if needs_recharge():
+        play_sound(SOUND_Sulten_lades)
     last_global_counter = global_counter
 
 
 # to start
-hat_monitor(30)
+hat_monitor()
 
 while True:
     try:
@@ -405,12 +412,7 @@ while True:
             counter = 0
             last_state = current_state
 
-        lognow()
-        log(" ...")
-        logln()
         time.sleep(1)
-        # c = color.wait_for_new_color()
-        # print("Found new color", c)
     except KeyboardInterrupt:
         ctrlc_count = ctrlc_count+1
         if ctrlc_count > 10:
