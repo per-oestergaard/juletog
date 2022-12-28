@@ -2,6 +2,7 @@
 # https://github.com/boppreh/keyboard
 #
 # from pynput.keyboard import Key, Listener
+import threading
 from buildhat import ColorSensor
 from buildhat import ForceSensor, ColorSensor, ColorDistanceSensor
 from signal import pause
@@ -22,66 +23,78 @@ print("hello world")
 hat = Hat(debug=True)
 print(hat.get())
 
+
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
 
+
 def elogtimestamp():
-    now=datetime.datetime.now()
+    now = datetime.datetime.now()
     eprint(now.strftime("%H:%M:%S"))
 
+
 def lognow():
-    now=datetime.datetime.now()
+    now = datetime.datetime.now()
     print(now.strftime("%H:%M:%S"), end=" ")
+
 
 def logln():
     print("", flush=True)
 
+
 def log(text):
-    print(text,end=" ")
+    print(text, end=" ")
+
 
 def log_volt():
     log("{:>4}V".format(hat.get_vin()))
+
 
 lognow()
 log_volt()
 logln()
 
-def is_connected_to_charger():
-    return hat.get_vin() > 7.60
 
-whatif_motor=True
+def is_connected_to_charger():
+    return hat.get_vin() > 7.80
+
+
+whatif_motor = True
 lognow()
 if (is_connected_to_charger()):
     log("connected to charger")
 else:
     log("not connected to charger")
-    whatif_motor=False
+    whatif_motor = False
 
 logln()
 
-orange_led=False
-green_led=False
+orange_led = False
+green_led = False
+
 
 def led_show():
     global orange_led
     global green_led
-    orange_led=random.random()
-    green_led=random.random()
+    orange_led = random.random()
+    green_led = random.random()
     hat.green_led(green_led)
     hat.orange_led(orange_led)
+
 
 def log_led():
     global orange_led
     global green_led
     if orange_led:
-        orange="O"
+        orange = "O"
     else:
-        orange=" "
+        orange = " "
     if green_led:
-        green="O"
+        green = "O"
     else:
-        green=" "
-    log("LED {}[}".format(orange,green))
+        green = " "
+    log("LED {}[}".format(orange, green))
+
 
 here = os.path.dirname(__file__)
 
@@ -93,7 +106,7 @@ power_loco_start = -25
 power_control_start = -23
 power_loco = power_loco_start
 power_control = power_control_start
-power_change_increment=1
+power_change_increment = 1
 
 
 def power_down_loco():
@@ -172,28 +185,30 @@ def stop():
         motor_control.stop()
 
 
-SOUND_bell = "ALRMBell_Bell of a level crossing (ID 0899)_BSB.mp3"
-SOUND_dog = "ANMLDog_Old dog barking 1 (ID 2352)_BSB.mp3"
-SOUND_canebells = "BELLAnml_Bells of santa claus 2 (ID 1124)_BSB.mp3"
-SOUND_fart = "FARTDsgn_Flatulence 1 (ID 0111)_BSB.mp3"
-SOUND_fartlong = "FARTMisc_Pony flatulence 2 (ID 1855)_BSB.mp3"
-SOUND_whitexmas = "MUSCToy_White christmas music box (ID 0465)_BS.mp3"
-SOUND_hohoho = "VOXMale_Santa claus oh oh oh 5 (ID 2078)_BSB.mp3"
-SOUND_trainpassing = "TRNTram_Passing tram (ID 0278)_BSB.mp3"
-SOUND_trainhorn = "TRNHorn_Whistling train 2 (ID 0226)_BSB.mp3"
-SOUND_hornshort = "TRNHorn_Whistling train 1 (ID 0225)_BSB.mp3"
-SOUND_horn1 = "TRNHorn_Train horn (ID 0277)_BSB.mp3"
-SOUND_horn2 = "TRNHorn_Train horn 2 (ID 2846)_BSB.mp3"
-SOUND_steam1 = "TRNHorn_Hiss of steam train 1 (ID 0227)_BSB.mp3"
+SOUND_bell = "ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3"
+SOUND_dog = "ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3"
+SOUND_canebells = "BELLAnml_Bells_of_santa_claus_2_ID_1124_BSB.mp3"
+SOUND_fart = "FARTDsgn_Flatulence_1_ID_0111_BSB.mp3"
+SOUND_fartlong = "FARTMisc_Pony_flatulence_2_ID_1855_BSB.mp3"
+SOUND_whitexmas = "MUSCToy_White_christmas_music_box_ID_0465_BS.mp3"
+SOUND_hohoho = "VOXMale_Santa_claus_oh_oh_oh_5_ID_2078_BSB.mp3"
+SOUND_trainpassing = "TRNTram_Passing_tram_ID_0278_BSB.mp3"
+SOUND_trainhorn = "TRNHorn_Whistling_train_2_ID_0226_BSB.mp3"
+SOUND_hornshort = "TRNHorn_Whistling_train_1_ID_0225_BSB.mp3"
+SOUND_horn1 = "TRNHorn_Train_horn_ID_0277_BSB.mp3"
+SOUND_horn2 = "TRNHorn_Train_horn_2_ID_2846_BSB.mp3"
+SOUND_steam1 = "TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3"
 SOUND_freetest = "Free_Test_Data_100KB_MP3.mp3"
 SOUND_water = "bubbling_water_1.mp3"
 SOUND_GlaedeligJul = "glaedeligJul.mp3"
 SOUND_detjuldetcool = "detjuldetcool.mp3"
 SOUND_AntonBukser = "AntonBukser.mp3"
 SOUND_KomJulSneGaver = "KomJulSneGaver.mp3"
-SOUND_no_HAT="No-HAT.mp3"
+SOUND_no_HAT = "No-HAT.mp3"
 
-idle_sounds=[SOUND_GlaedeligJul,SOUND_AntonBukser, SOUND_detjuldetcool,SOUND_canebells,SOUND_dog,SOUND_hohoho,SOUND_fartlong]
+idle_sounds = [SOUND_GlaedeligJul, SOUND_AntonBukser, SOUND_detjuldetcool,
+               SOUND_canebells, SOUND_dog, SOUND_hohoho, SOUND_fartlong]
+
 
 def play_sound(sound):
     try:
@@ -201,7 +216,7 @@ def play_sound(sound):
         lognow()
         log(mp3)
         log("spawnlp={}".format(os.spawnlp(os.P_NOWAIT, "/usr/bin/mpg321",
-              "/usr/bin/mpg321", "-g", "35", mp3)))
+                                           "/usr/bin/mpg321", "-g", "35", mp3)))
         logln()
         # playsound(mp3)
     except Exception:
@@ -246,8 +261,6 @@ def reboot_now():
     logln()
     play_shutdown()
     os.system('sudo reboot')
-
-
 
 
 def set_starting_state():
@@ -308,34 +321,36 @@ counter = 0
 global_counter = 0
 last_global_counter = global_counter
 
-import threading
 
 def hat_monitor(every_n_seconds):
     global global_counter
     global last_global_counter
     threading.Timer(every_n_seconds, hat_monitor).start()
     # put your action here
-    if global_counter==last_global_counter:
+    if global_counter == last_global_counter:
         lognow()
-        log("hat_monitor: current={} last={}".format(global_counter,last_global_counter))
+        log("hat_monitor: current={} last={}".format(
+            global_counter, last_global_counter))
         logln()
         play_sound(SOUND_no_HAT)
-    last_global_counter=global_counter
+    last_global_counter = global_counter
 
-#to start
+
+# to start
 hat_monitor(30)
 
 while True:
     try:
-        led_show
+        led_show()
         lognow()
-        log("state current={} last={} counter={:>3} gcounter={:>3}".format(current_state, last_state, counter,global_counter))
+        log("state current={} last={} counter={:>3} gcounter={:>3}".format(
+            current_state, last_state, counter, global_counter))
         logcolor()
         log_volt()
         log_led()
         if whatif_motor:
             log("WHATIF")
-        log("power loco {:>4} ctl {:>4}".format(power_loco,power_control))
+        log("power loco {:>4} ctl {:>4}".format(power_loco, power_control))
         logln()
         counter += 1
         global_counter += 1
@@ -358,9 +373,9 @@ while True:
                 play_sound(SOUND_KomJulSneGaver)
             elif counter == 57:
                 play_sound(SOUND_whitexmas)
-            elif counter == 45 or counter == 48 or counter==51:
+            elif counter == 45 or counter == 48 or counter == 51:
                 play_sound(SOUND_trainhorn)
-            elif counter == 40 :
+            elif counter == 40:
                 play_sound(SOUND_GlaedeligJul)
             elif counter == 30:
                 play_sound(SOUND_trainpassing)
@@ -369,7 +384,7 @@ while True:
             elif counter == 10 or counter == 11 or counter == 12:
                 play_sound(SOUND_hornshort)
         elif current_state == STATE_stopping:
-            if counter == 4 or counter == 5 or counter ==6 or counter ==7:
+            if counter == 4 or counter == 5 or counter == 6 or counter == 7:
                 play_sound(SOUND_fart)
             elif counter == 8:
                 stop()
@@ -378,7 +393,7 @@ while True:
             # print("stopped", flush=True)
             stop()
             if global_counter % 50 == 0:
-                random_idle_sound=random.choice (idle_sounds)
+                random_idle_sound = random.choice(idle_sounds)
                 play_sound(random_idle_sound)
             if global_counter % 290 == 0:
                 set_starting_state()
