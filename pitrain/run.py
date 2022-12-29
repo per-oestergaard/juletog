@@ -158,16 +158,32 @@ def power_up_both():
     print("power_control=", power_control)
     # start()
 
+log_color_lock=threading.Lock()
 
 def logcolor():
-    log("color")
-    log(color.get_color())
-    rgb = color.get_color_rgb()
-    log("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]))
-    log("Segment color={}".format(color.segment_color(rgb[0], rgb[1], rgb[2])))
-    log("Dist. {:>3}".format(color.get_distance()))
-    log("Reflect {:>3}".format(color.get_reflected_light()))
+    with log_color_lock:
+        log("color")
+        log(color.get_color())
+        rgb = color.get_color_rgb()
+        log("RGB {:>3}.{:>3}.{:>3}".format(rgb[0], rgb[1], rgb[2]))
+        log("Segment color={}".format(color.segment_color(rgb[0], rgb[1], rgb[2])))
+        log("Dist. {:>3}".format(color.get_distance()))
+        log("Reflect {:>3}".format(color.get_reflected_light()))
 
+def logcolor2():
+    with log_color_lock:
+        if color.get_color()=="black":
+            print("\a",end="")
+        # log("{:7} {:5.2f} {:5.2f}".format(color.get_color(),
+            # color.get_distance(), color.get_reflected_light()))
+
+
+
+def color_monitor(every_n_seconds=0.25):
+    threading.Timer(every_n_seconds, color_monitor).start()
+    logcolor2()
+
+color_monitor()
 
 def start():
     global power_loco
@@ -351,6 +367,7 @@ hat_monitor()
 while True:
     try:
         led_show()
+        logln()
         lognow()
         log("state current={} last={} counter={:>3} gcounter={:>3}".format(
             current_state, last_state, counter, global_counter))
