@@ -18,7 +18,7 @@ import time
 import random
 # from playsound import playsound
 
-print("hello world")
+print("hello pitrain")
 
 hat = Hat(debug=True)
 print(hat.get())
@@ -106,8 +106,8 @@ motor_loco = PassiveMotor("A")
 motor_control = PassiveMotor("D")
 color = ColorDistanceSensor('C')
 
-power_loco_start = -25
-power_control_start = -23
+power_loco_start = -27
+power_control_start = -25
 power_loco = power_loco_start
 power_control = power_control_start
 power_change_increment = 1
