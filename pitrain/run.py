@@ -76,12 +76,14 @@ logln()
 orange_led = False
 green_led = False
 
+def random_boolean():
+    return random.random() < 0.5
 
 def led_show():
     global orange_led
     global green_led
-    orange_led = random.random()
-    green_led = random.random()
+    orange_led=random_boolean()
+    green_led=random_boolean()
     hat.green_led(green_led)
     hat.orange_led(orange_led)
 
@@ -94,7 +96,7 @@ def log_led():
     else:
         orange = " "
     if green_led:
-        green = "O"
+        green = "G"
     else:
         green = " "
     log("LED {}{}".format(orange, green))
