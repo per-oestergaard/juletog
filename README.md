@@ -15,8 +15,7 @@ Controlling my christmas tree
 ## Ideas
 
 - Log to data file in CSV/line-JSON format
-- Stops based on colored bricks at station (near charger, maybe postpone charger audio)
+- Stops based on colored bricks at station (near charger, maybe postpone charger audio). Maybe plates without studs are easier to detect?
 - Sound at certain times (before crossing)
 - Dog bark while driving by dog?
 - Fart brick?
-
