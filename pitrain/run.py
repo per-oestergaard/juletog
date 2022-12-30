@@ -56,7 +56,7 @@ logln()
 
 
 def is_connected_to_charger():
-    return hat.get_vin() > 7.80
+    return hat.get_vin() > 7.90
 
 
 def needs_recharge():

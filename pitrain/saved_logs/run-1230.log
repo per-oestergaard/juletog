@@ -1,0 +1,152 @@
+09:22:53 run2.sh
+09:22:53 git pull
+09:22:54 python testhat.py
+testhat
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+7.93V 
+HAT OK
+09:23:12 python run.py
+hello pitrain
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+09:23:13 7.92V 
+09:23:13 connected to charger 
+09:23:14 /home/per/gitwork/juletog/pitrain/sounds/ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 spawnlp=676 
+
+09:23:14 state current=0 last=0 counter=  0 gcounter=  0 color green RGB 101. 96. 93 Segment color=green Dist.   0 Reflect  38 7.91V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:23:15 state current=0 last=0 counter=  1 gcounter=  1 color green RGB 103. 98. 94 Segment color=green Dist.   0 Reflect  37 7.94V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:23:16 state current=0 last=0 counter=  2 gcounter=  2 color green RGB 104. 97. 93 Segment color=green Dist.   0 Reflect  39 7.94V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:15:37 state current=0 last=0 counter=  3 gcounter=  3 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  39 7.88V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:38 state current=0 last=0 counter=  4 gcounter=  4 color green RGB 101. 98. 93 Segment color=green Dist.   0 Reflect  39 7.92V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:39 state current=0 last=0 counter=  5 gcounter=  5 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  38 7.95V LED    WHATIF power loco  -27 ctl  -25 
+
+10:15:40 state current=0 last=0 counter=  6 gcounter=  6 color green RGB 103. 97. 93 Segment color=green Dist.   0 Reflect  38 7.91V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:15:46 state current=0 last=0 counter=  7 gcounter=  7 color green RGB 104. 98. 93 Segment color=green Dist.   0 Reflect  39 7.91V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:15:48 state current=0 last=0 counter=  8 gcounter=  8 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  37 7.91V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:15:49 state current=0 last=0 counter=  9 gcounter=  9 color green RGB 103. 97. 92 Segment color=green Dist.   0 Reflect  39 7.88V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:51 state current=0 last=0 counter= 10 gcounter= 10 color green RGB 101. 96. 93 Segment color=green Dist.   0 Reflect  39 7.87V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:52 state current=0 last=0 counter= 11 gcounter= 11 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  43 7.92V LED    WHATIF power loco  -27 ctl  -25 
+
+10:15:53 state current=0 last=0 counter= 12 gcounter= 12 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  37 7.96V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:54 state current=0 last=0 counter= 13 gcounter= 13 color green RGB 102. 98. 94 Segment color=green Dist.   0 Reflect  43 7.91V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:15:57 state current=0 last=0 counter= 14 gcounter= 14 color green RGB 103. 97. 93 Segment color=green Dist.   0 Reflect  38 7.92V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:15:58 state current=0 last=0 counter= 15 gcounter= 15 color green RGB 104. 98. 93 Segment color=green Dist.   0 Reflect  39 7.87V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:15:59 state current=0 last=0 counter= 16 gcounter= 16 color green RGB 102. 99. 94 Segment color=green Dist.   0 Reflect  39 7.92V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:00 state current=0 last=0 counter= 17 gcounter= 17 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  37 7.91V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:01 state current=0 last=0 counter= 18 gcounter= 18 color green RGB 103. 99. 93 Segment color=green Dist.   0 Reflect  38 7.92V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:02 state current=0 last=0 counter= 19 gcounter= 19 color green RGB 103. 97. 93 Segment color=green Dist.   0 Reflect  38 7.87V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:03 state current=0 last=0 counter= 20 gcounter= 20 color green RGB 102. 98. 94 Segment color=green Dist.   0 Reflect  43 7.93V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:05 state current=0 last=0 counter= 21 gcounter= 21 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  38 7.89V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:06 state current=0 last=0 counter= 22 gcounter= 22 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  39  7.9V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:07 state current=0 last=0 counter= 23 gcounter= 23 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  38  7.9V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:08 state current=0 last=0 counter= 24 gcounter= 24 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  39 7.94V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:09 state current=0 last=0 counter= 25 gcounter= 25 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  38 7.93V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:10 state current=0 last=0 counter= 26 gcounter= 26 color green RGB 103. 99. 94 Segment color=green Dist.   0 Reflect  39 7.94V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:11 state current=0 last=0 counter= 27 gcounter= 27 color green RGB 101. 96. 93 Segment color=green Dist.   0 Reflect  38 7.94V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:12 state current=0 last=0 counter= 28 gcounter= 28 color green RGB 103. 99. 93 Segment color=green Dist.   0 Reflect  38 7.95V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:14 state current=0 last=0 counter= 29 gcounter= 29 color green RGB 103. 98. 94 Segment color=green Dist.   0 Reflect  39 7.96V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:15 state current=0 last=0 counter= 30 gcounter= 30 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  40 7.93V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:16 state current=0 last=0 counter= 31 gcounter= 31 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  38 7.93V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:17 state current=0 last=0 counter= 32 gcounter= 32 color green RGB 102. 97. 94 Segment color=green Dist.   0 Reflect  42 7.91V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:18 state current=0 last=0 counter= 33 gcounter= 33 color green RGB 103. 98. 94 Segment color=green Dist.   0 Reflect  39 7.91V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:19 state current=0 last=0 counter= 34 gcounter= 34 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  43 7.91V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:20 state current=0 last=0 counter= 35 gcounter= 35 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  39 7.93V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:21 state current=0 last=0 counter= 36 gcounter= 36 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  38 7.95V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:23 state current=0 last=0 counter= 37 gcounter= 37 color green RGB 102. 98. 94 Segment color=green Dist.   0 Reflect  37 7.94V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:24 state current=0 last=0 counter= 38 gcounter= 38 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  38 7.93V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:25 state current=0 last=0 counter= 39 gcounter= 39 color green RGB 104. 99. 93 Segment color=green Dist.   0 Reflect  40 7.85V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:26 state current=0 last=0 counter= 40 gcounter= 40 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  38 7.93V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:27 state current=0 last=0 counter= 41 gcounter= 41 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  39  7.9V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:29 state current=0 last=0 counter= 42 gcounter= 42 color green RGB 100. 97. 93 Segment color=green Dist.   0 Reflect  39 7.95V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:30 state current=0 last=0 counter= 43 gcounter= 43 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  38 7.88V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:31 state current=0 last=0 counter= 44 gcounter= 44 color green RGB 103. 97. 92 Segment color=green Dist.   0 Reflect  39 7.91V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:32 state current=0 last=0 counter= 45 gcounter= 45 color green RGB 101. 96. 93 Segment color=green Dist.   0 Reflect  43 7.85V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:34 state current=0 last=0 counter= 46 gcounter= 46 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  38 7.87V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:35 state current=0 last=0 counter= 47 gcounter= 47 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  39 7.89V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:36 state current=0 last=0 counter= 48 gcounter= 48 color green RGB 103. 99. 94 Segment color=green Dist.   0 Reflect  39 7.87V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:37 state current=0 last=0 counter= 49 gcounter= 49 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  39 7.86V LED  G WHATIF power loco  -27 ctl  -25 
+10:16:37 /home/per/gitwork/juletog/pitrain/sounds/AntonBukser.mp3 spawnlp=2646 
+
+10:16:38 state current=0 last=0 counter= 50 gcounter= 50 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  38 7.95V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:39 state current=0 last=0 counter= 51 gcounter= 51 color green RGB 102. 99. 93 Segment color=green Dist.   0 Reflect  37  7.9V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:40 state current=0 last=0 counter= 52 gcounter= 52 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  37  7.9V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:41 state current=0 last=0 counter= 53 gcounter= 53 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  39  7.9V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:43 state current=0 last=0 counter= 54 gcounter= 54 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  39 7.87V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:44 state current=0 last=0 counter= 55 gcounter= 55 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  39 7.87V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:45 state current=0 last=0 counter= 56 gcounter= 56 color green RGB 102. 97. 93 Segment color=green Dist.   0 Reflect  43 7.88V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:46 state current=0 last=0 counter= 57 gcounter= 57 color green RGB 103. 99. 94 Segment color=green Dist.   0 Reflect  39  7.9V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:47 state current=0 last=0 counter= 58 gcounter= 58 color green RGB 103. 99. 93 Segment color=green Dist.   0 Reflect  38 7.87V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:48 state current=0 last=0 counter= 59 gcounter= 59 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  40 7.89V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:49 state current=0 last=0 counter= 60 gcounter= 60 color green RGB 102. 98. 93 Segment color=green Dist.   0 Reflect  39  7.9V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:51 state current=0 last=0 counter= 61 gcounter= 61 color green RGB 102. 96. 92 Segment color=green Dist.   0 Reflect  43  7.9V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:52 state current=0 last=0 counter= 62 gcounter= 62 color green RGB 103. 98. 94 Segment color=green Dist.   0 Reflect  39 7.91V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:53 state current=0 last=0 counter= 63 gcounter= 63 color green RGB 103. 98. 93 Segment color=green Dist.   0 Reflect  38 7.87V LED  G WHATIF power loco  -27 ctl  -25 
+
+10:16:54 state current=0 last=0 counter= 64 gcounter= 64 color green RGB 101. 97. 93 Segment color=green Dist.   0 Reflect  39  7.9V LED O  WHATIF power loco  -27 ctl  -25 
+
+10:16:55 state current=0 last=0 counter= 65 gcounter= 65 color green RGB 102. 96. 93 Segment color=green Dist.   0 Reflect  39 7.95V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:56 state current=0 last=0 counter= 66 gcounter= 66 color green RGB 101. 97. 94 Segment color=green Dist.   0 Reflect  38 7.91V LED OG WHATIF power loco  -27 ctl  -25 
+
+10:16:58 state current=0 last=0 counter= 67 gcounter= 67 color green RGB 103. 96. 91 Segment color=green Dist.   0 Reflect  37 7.93V LED    WHATIF power loco  -27 ctl  -25 
+
+10:16:59 state current=0 last=0 counter= 68 gcounter= 68 color green RGB 103. 98. 94 Segment color=green Dist.   0 Reflect  39 7.93V LED  G WHATIF power loco  -27 ctl  -25 

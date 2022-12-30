@@ -1,0 +1,870 @@
+date: ugyldig dato "%m%d"
+fatal: unable to access 'https://github.com/per-oestergaard/juletog.git/': Could not resolve host: github.com
+Traceback (most recent call last):
+  File "/home/per/gitwork/juletog/pitrain/testhat.py", line 19, in <module>
+    hat = Hat()
+  File "/home/per/.local/lib/python3.9/site-packages/buildhat/hat.py", line 17, in __init__
+    Device._setup(debug=debug)
+  File "/home/per/.local/lib/python3.9/site-packages/buildhat/devices.py", line 80, in _setup
+    Device._instance = BuildHAT(firm, sig, v, **kwargs)
+  File "/home/per/.local/lib/python3.9/site-packages/buildhat/serinterface.py", line 146, in __init__
+    raise BuildHATError("HAT not found")
+buildhat.exc.BuildHATError: HAT not found
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+date: ugyldig dato "%m%d"
+fatal: unable to access 'https://github.com/per-oestergaard/juletog.git/': Could not resolve host: github.com
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+                                                                            
+[0:02] Decoding of ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 finished.
+09:15:04
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train a vapeur 0 Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:15:24
+                                                                            
+[0:04] Decoding of TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:15:42
+                                                                                                                                                        
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Ny optagelse 3                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from detjuldetcool.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of detjuldetcool.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: tramway01                      Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNTram_Passing_tram_ID_0278_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:15:59
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Glædelig jul                   Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from GlaedeligJul.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:13] Decoding of TRNTram_Passing_tram_ID_0278_BSB.mp3 finished.
+                                                                            
+[0:04] Decoding of GlaedeligJul.mp3 finished.
+date: ugyldig dato "%m%d"
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+                                                                            
+[0:02] Decoding of ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train a vapeur 0 Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:04] Decoding of TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 finished.
+09:16:45
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+09:17:04
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Ny optagelse 3                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from detjuldetcool.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of detjuldetcool.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: tramway01                      Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNTram_Passing_tram_ID_0278_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:17:22
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Glædelig jul                   Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from GlaedeligJul.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:13] Decoding of TRNTram_Passing_tram_ID_0278_BSB.mp3 finished.
+                                                                            
+[0:04] Decoding of GlaedeligJul.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:17:40
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+09:17:58
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: KomJulSneGaver                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from KomJulSneGaver.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of KomJulSneGaver.mp3 finished.
+                                                                            
+[0:19] Decoding of MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 finished.
+09:18:15
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 1855                           Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTMisc_Pony_flatulence_2_ID_1855_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of FARTMisc_Pony_flatulence_2_ID_1855_BSB.mp3 finished.
+09:18:31
+09:18:48
+09:19:04
+09:19:21
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 2352                           Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 ...
+MPEG 1.0 layer III, 256 kbit/s, 48000 Hz mono
+                                                                            
+[0:05] Decoding of ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 finished.
+09:19:37
+09:19:54
+09:20:11
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 2078                           Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from VOXMale_Santa_claus_oh_oh_oh_5_ID_2078_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+                                                                            
+[0:02] Decoding of VOXMale_Santa_claus_oh_oh_oh_5_ID_2078_BSB.mp3 finished.
+09:21:00
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+date: ugyldig dato "%m%d"
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+                                                                            
+[0:02] Decoding of ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train a vapeur 0 Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:23:02
+                                                                            
+[0:04] Decoding of TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 01         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+                                                                            
+[0:03] Decoding of TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 finished.
+09:23:19
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Ny optagelse 3                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from detjuldetcool.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of detjuldetcool.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: tramway01                      Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNTram_Passing_tram_ID_0278_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:23:35
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Glædelig jul                   Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from GlaedeligJul.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:13] Decoding of TRNTram_Passing_tram_ID_0278_BSB.mp3 finished.
+                                                                            
+[0:04] Decoding of GlaedeligJul.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+09:23:52
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Sifflement de train 02         Artist :                               
+Album	:                                Year	 :                               
+Comment : 0                              Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+                                                                            
+[0:05] Decoding of TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 48000 Hz mono
+09:24:09
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: KomJulSneGaver                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from KomJulSneGaver.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of KomJulSneGaver.mp3 finished.
+                                                                            
+[0:19] Decoding of MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 finished.
+09:24:25
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 0111                           Artist :                               
+Album	:                                Year	 :                               
+Comment :  0000000A 0000000A 0000007F 00 Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 ...
+MPEG 1.0 layer III, 320 kbit/s, 44100 Hz stereo
+ALSA lib pcm.c:2660:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.front
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+                                                                            
+[0:01] Decoding of FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Ny optagelse 3                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from detjuldetcool.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of detjuldetcool.mp3 finished.
+09:24:42
+09:24:58
+09:25:15
+09:25:31
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: Ny optagelse 3                 Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from detjuldetcool.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:03] Decoding of detjuldetcool.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: 2352                           Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 ...
+MPEG 1.0 layer III, 256 kbit/s, 48000 Hz mono
+                                                                            
+[0:05] Decoding of ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layer 1, 2, and 3.
+Version 0.3.2-1 (2012/03/25). Written and copyrights by Joe Drew,
+now maintained by Nanakos Chrysostomos and others.
+Uses code from various people. See 'README' for more!
+THIS SOFTWARE COMES WITH ABSOLUTELY NO WARRANTY! USE AT YOUR OWN RISK!
+Title	: No-HAT                         Artist :                               
+Album	:                                Year	 :                               
+Comment :                                Genre :                               
+
+Directory: /home/per/gitwork/juletog/pitrain/sounds
+Playing MPEG stream from No-HAT.mp3 ...
+MPEG 1.0 layer III, 64 kbit/s, 48000 Hz mono
+                                                                            
+[0:04] Decoding of No-HAT.mp3 finished.

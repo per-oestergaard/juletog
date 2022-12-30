@@ -1,0 +1,1010 @@
+19:43:25 run2.sh
+19:43:25 git pull
+19:43:26 python testhat.py
+testhat
+19:43:43 no hat :(
+19:45:24 run2.sh
+19:45:24 git pull
+19:45:25 python testhat.py
+testhat
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+7.81V 
+HAT OK
+19:45:42 python run.py
+hello pitrain
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+19:45:44 7.83V 
+19:45:44 connected to charger 
+19:45:44 /home/per/gitwork/juletog/pitrain/sounds/ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 spawnlp=676 
+
+19:45:44 state current=0 last=0 counter=  0 gcounter=  0 color green RGB  75. 71. 86 Segment color=green Dist.   0 Reflect  30 7.79V LED    WHATIF power loco  -27 ctl  -25 
+
+19:45:45 state current=0 last=0 counter=  1 gcounter=  1 color green RGB  74. 72. 87 Segment color=green Dist.   2 Reflect  29 7.88V LED    WHATIF power loco  -27 ctl  -25 
+
+19:45:47 state current=0 last=0 counter=  2 gcounter=  2 color green RGB  75. 73. 88 Segment color=green Dist.   1 Reflect  29 7.81V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:14:45 state current=0 last=0 counter=  3 gcounter=  3 color green RGB  74. 71. 86 Segment color=green Dist.   1 Reflect  30 7.81V LED    WHATIF power loco  -27 ctl  -25 
+
+09:14:46 state current=0 last=0 counter=  4 gcounter=  4 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.83V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:14:48 state current=0 last=0 counter=  5 gcounter=  5 color green RGB  77. 72. 86 Segment color=green Dist.   1 Reflect  30 7.76V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:14:49 state current=0 last=0 counter=  6 gcounter=  6 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.86V LED    WHATIF power loco  -27 ctl  -25 
+
+09:14:56 state current=0 last=0 counter=  7 gcounter=  7 color green RGB  74. 72. 87 Segment color=green Dist.   1 Reflect  29 7.77V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:14:57 state current=0 last=0 counter=  8 gcounter=  8 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  30 7.72V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:14:58 state current=0 last=0 counter=  9 gcounter=  9 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  30 7.76V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:00 state current=0 last=0 counter= 10 gcounter= 10 color green RGB  73. 71. 86 Segment color=green Dist.   1 Reflect  29 7.82V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:01 state current=0 last=0 counter= 11 gcounter= 11 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  31 7.78V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:02 state current=0 last=0 counter= 12 gcounter= 12 color green RGB  75. 73. 87 Segment color=green Dist.   1 Reflect  30 7.78V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:03 state current=0 last=0 counter= 13 gcounter= 13 color green RGB  75. 72. 87 Segment color=green Dist.   1 Reflect  29 7.81V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:04 state current=0 last=0 counter= 14 gcounter= 14 color green RGB  75. 71. 85 Segment color=green Dist.   1 Reflect  30 7.81V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:05 state current=0 last=0 counter= 15 gcounter= 15 color green RGB  76. 73. 87 Segment color=green Dist.   1 Reflect  29 7.79V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:06 state current=0 last=0 counter= 16 gcounter= 16 color green RGB  75. 73. 87 Segment color=green Dist.   1 Reflect  30  7.8V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:07 state current=0 last=0 counter= 17 gcounter= 17 color green RGB  75. 72. 85 Segment color=green Dist.   1 Reflect  29 7.81V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:08 state current=0 last=0 counter= 18 gcounter= 18 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  30  7.8V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:10 state current=0 last=0 counter= 19 gcounter= 19 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  29 7.84V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:11 state current=0 last=0 counter= 20 gcounter= 20 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  30 7.77V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:12 state current=0 last=0 counter= 21 gcounter= 21 color green RGB  75. 71. 86 Segment color=green Dist.   1 Reflect  31 7.76V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:13 state current=0 last=0 counter= 22 gcounter= 22 color green RGB  75. 72. 87 Segment color=green Dist.   1 Reflect  30 7.84V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:14 state current=0 last=0 counter= 23 gcounter= 23 color green RGB  76. 72. 86 Segment color=green Dist.   1 Reflect  29 7.85V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:15 state current=1 last=0 counter= 24 gcounter= 24 color green RGB  74. 70. 86 Segment color=green Dist.   1 Reflect  30 7.74V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:16 state current=1 last=1 counter=  0 gcounter= 25 color green RGB  76. 72. 86 Segment color=green Dist.   1 Reflect  31 7.79V LED  G WHATIF power loco  -27 ctl  -25 
+09:15:16 WHATIF power_loco=-27 power_control=-25 
+
+09:15:17 state current=1 last=1 counter=  1 gcounter= 26 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  30 7.75V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:18 state current=1 last=1 counter=  2 gcounter= 27 color green RGB  76. 73. 86 Segment color=green Dist.   1 Reflect  29 7.81V LED O  WHATIF power loco  -27 ctl  -25 
+09:15:18 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 spawnlp=955 
+
+09:15:22 state current=1 last=1 counter=  3 gcounter= 28 color green RGB  75. 72. 87 Segment color=green Dist.   1 Reflect  29 7.78V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:24 state current=2 last=2 counter=  0 gcounter= 29 color green RGB  74. 72. 87 Segment color=green Dist.   1 Reflect  30 7.77V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:25 state current=2 last=2 counter=  1 gcounter= 30 color green RGB  74. 72. 87 Segment color=green Dist.   1 Reflect  29 7.79V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:26 state current=2 last=2 counter=  2 gcounter= 31 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.79V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:27 state current=2 last=2 counter=  3 gcounter= 32 color green RGB  75. 71. 86 Segment color=green Dist.   1 Reflect  30 7.77V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:28 state current=2 last=2 counter=  4 gcounter= 33 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  30 7.76V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:29 state current=2 last=2 counter=  5 gcounter= 34 color green RGB  73. 72. 87 Segment color=green Dist.   1 Reflect  30 7.84V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:31 state current=2 last=2 counter=  6 gcounter= 35 color green RGB  75. 73. 87 Segment color=green Dist.   1 Reflect  31 7.81V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:32 state current=2 last=2 counter=  7 gcounter= 36 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  30 7.78V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:33 state current=2 last=2 counter=  8 gcounter= 37 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  30 7.81V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:34 state current=2 last=2 counter=  9 gcounter= 38 color green RGB  76. 72. 86 Segment color=green Dist.   1 Reflect  29 7.76V LED OG WHATIF power loco  -27 ctl  -25 
+09:15:34 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1072 
+
+09:15:36 state current=2 last=2 counter= 10 gcounter= 39 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.77V LED  G WHATIF power loco  -27 ctl  -25 
+09:15:37 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1083 
+
+09:15:38 state current=2 last=2 counter= 11 gcounter= 40 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.79V LED O  WHATIF power loco  -27 ctl  -25 
+09:15:38 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1089 
+
+09:15:39 state current=2 last=2 counter= 12 gcounter= 41 color green RGB  73. 71. 86 Segment color=green Dist.   1 Reflect  30 7.73V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:40 state current=2 last=2 counter= 13 gcounter= 42 color green RGB  76. 73. 86 Segment color=green Dist.   1 Reflect  29 7.83V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:41 state current=2 last=2 counter= 14 gcounter= 43 color green RGB  75. 72. 86 Segment color=green Dist.   1 Reflect  29 7.79V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:42 state current=2 last=2 counter= 15 gcounter= 44 color green RGB  75. 73. 86 Segment color=green Dist.   1 Reflect  30 7.81V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:43 state current=2 last=2 counter= 16 gcounter= 45 color green RGB  74. 72. 86 Segment color=green Dist.   1 Reflect  31 7.83V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:44 state current=2 last=2 counter= 17 gcounter= 46 color green RGB  75. 72. 85 Segment color=green Dist.   1 Reflect  30 7.76V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:45 state current=2 last=2 counter= 18 gcounter= 47 color violet RGB 137.128.122 Segment color=green Dist.   1 Reflect  49 7.76V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:46 state current=2 last=2 counter= 19 gcounter= 48 color black RGB  47. 54. 62 Segment color=black Dist.   0 Reflect  26 7.77V LED  G WHATIF power loco  -27 ctl  -25 
+09:15:47 /home/per/gitwork/juletog/pitrain/sounds/detjuldetcool.mp3 spawnlp=1184 
+
+09:15:48 state current=2 last=2 counter= 20 gcounter= 49 color green RGB  48. 55. 62 Segment color=black Dist.   0 Reflect  25 7.79V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:49 state current=2 last=2 counter= 21 gcounter= 50 color black RGB  50. 58. 57 Segment color=black Dist.   1 Reflect  19 7.73V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:50 state current=2 last=2 counter= 22 gcounter= 51 color black RGB  49. 58. 58 Segment color=black Dist.   1 Reflect  20 7.79V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:51 state current=2 last=2 counter= 23 gcounter= 52 color black RGB  48. 57. 58 Segment color=black Dist.   1 Reflect  19 7.76V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:52 state current=2 last=2 counter= 24 gcounter= 53 color black RGB  48. 57. 57 Segment color=black Dist.   1 Reflect  19 7.76V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:53 state current=2 last=2 counter= 25 gcounter= 54 color black RGB  47. 57. 55 Segment color=black Dist.   1 Reflect  20  7.8V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:15:54 state current=2 last=2 counter= 26 gcounter= 55 color black RGB  47. 57. 55 Segment color=black Dist.   1 Reflect  18  7.8V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:15:55 state current=2 last=2 counter= 27 gcounter= 56 color black RGB  46. 57. 55 Segment color=black Dist.   1 Reflect  18 7.75V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:15:56 state current=2 last=2 counter= 28 gcounter= 57 color black RGB  46. 57. 55 Segment color=black Dist.   1 Reflect  18 7.83V LED    WHATIF power loco  -27 ctl  -25 
+
+09:15:58 state current=2 last=2 counter= 29 gcounter= 58 color black RGB  47. 58. 55 Segment color=black Dist.   1 Reflect  18 7.82V LED OG WHATIF power loco  -27 ctl  -25 
+09:15:58 /home/per/gitwork/juletog/pitrain/sounds/TRNTram_Passing_tram_ID_0278_BSB.mp3 spawnlp=1229 
+
+09:15:59 state current=2 last=2 counter= 30 gcounter= 59 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18  7.8V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:16:00 state current=2 last=2 counter= 31 gcounter= 60 color black RGB  47. 57. 55 Segment color=black Dist.   1 Reflect  19 7.76V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:16:01 state current=2 last=2 counter= 32 gcounter= 61 color black RGB  45. 57. 55 Segment color=black Dist.   1 Reflect  18 7.83V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:16:02 state current=2 last=2 counter= 33 gcounter= 62 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.77V LED    WHATIF power loco  -27 ctl  -25 
+
+09:16:03 state current=2 last=2 counter= 34 gcounter= 63 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.78V LED    WHATIF power loco  -27 ctl  -25 
+
+09:16:04 state current=2 last=2 counter= 35 gcounter= 64 color black RGB  46. 56. 54 Segment color=black Dist.   1 Reflect  18 7.75V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:16:05 state current=2 last=2 counter= 36 gcounter= 65 color black RGB  46. 56. 54 Segment color=black Dist.   1 Reflect  19 7.71V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:16:06 state current=2 last=2 counter= 37 gcounter= 66 color black RGB  46. 56. 55 Segment color=black Dist.   1 Reflect  19  7.8V LED O  WHATIF power loco  -27 ctl  -25 
+
+09:16:08 state current=2 last=2 counter= 38 gcounter= 67 color black RGB  47. 58. 55 Segment color=black Dist.   1 Reflect  18  7.8V LED  G WHATIF power loco  -27 ctl  -25 
+
+09:16:09 state current=2 last=2 counter= 39 gcounter= 68 color black RGB  47. 57. 54 Segment color=black Dist.   1 Reflect  18 7.73V LED    WHATIF power loco  -27 ctl  -25 
+09:16:09 /home/per/gitwork/juletog/pitrain/sounds/GlaedeligJul.mp3 spawnlp=1274 
+
+09:16:10 state current=2 last=2 counter= 40 gcounter= 69 color black RGB  47. 57. 54 Segment color=black Dist.   1 Reflect  18 7.76V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:16:11 state current=2 last=2 counter= 41 gcounter= 70 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.72V LED OG WHATIF power loco  -27 ctl  -25 
+
+09:16:12 state current=2 last=2 counter= 42 gcounter= 71 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.81V LED    WHATIF power loco  -27 ctl  -25 
+
+09:16:13 state current=2 last=2 counter= 43 gcounter= 72 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  19 7.77V LED O  WHATIF power loco  -27 ctl  -25 
+09:16:14 byebye 
+09:16:14 sleep
+09:16:24 git pull
+Already up to date.
+09:16:26 python testhat.py
+testhat
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+7.73V 
+HAT OK
+09:16:28 python run.py
+hello pitrain
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+09:16:29 7.75V 
+09:16:29 not connected to charger 
+09:16:30 /home/per/gitwork/juletog/pitrain/sounds/ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 spawnlp=1334 
+
+09:16:30 state current=0 last=0 counter=  0 gcounter=  0 color black RGB  46. 56. 55 Segment color=black Dist.   1 Reflect  18 7.68V LED OG power loco  -27 ctl  -25 
+
+09:16:31 state current=0 last=0 counter=  1 gcounter=  1 color black RGB  47. 57. 54 Segment color=black Dist.   1 Reflect  18 7.77V LED  G power loco  -27 ctl  -25 
+
+09:16:32 state current=0 last=0 counter=  2 gcounter=  2 color black RGB  47. 57. 54 Segment color=black Dist.   1 Reflect  18 7.81V LED OG power loco  -27 ctl  -25 
+
+09:16:33 state current=0 last=0 counter=  3 gcounter=  3 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.79V LED    power loco  -27 ctl  -25 
+
+09:16:34 state current=0 last=0 counter=  4 gcounter=  4 color black RGB  47. 57. 54 Segment color=black Dist.   1 Reflect  18 7.77V LED OG power loco  -27 ctl  -25 
+
+09:16:35 state current=0 last=0 counter=  5 gcounter=  5 color black RGB  46. 57. 55 Segment color=black Dist.   1 Reflect  18 7.76V LED O  power loco  -27 ctl  -25 
+
+09:16:36 state current=0 last=0 counter=  6 gcounter=  6 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.76V LED O  power loco  -27 ctl  -25 
+
+09:16:37 state current=1 last=0 counter=  7 gcounter=  7 color black RGB  46. 57. 55 Segment color=black Dist.   1 Reflect  19 7.74V LED    power loco  -27 ctl  -25 
+
+09:16:39 state current=1 last=1 counter=  0 gcounter=  8 color black RGB  46. 57. 54 Segment color=black Dist.   1 Reflect  18 7.75V LED  G power loco  -27 ctl  -25 
+09:16:39 power_loco=-27 power_control=-25 
+
+09:16:40 state current=1 last=1 counter=  1 gcounter=  9 color black RGB  65. 68. 79 Segment color=green Dist.   1 Reflect  39 7.42V LED    power loco  -27 ctl  -25 
+
+09:16:41 state current=1 last=1 counter=  2 gcounter= 10 color black RGB 130.122.138 Segment color=violet Dist.   1 Reflect  50 7.43V LED    power loco  -27 ctl  -25 
+09:16:41 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 spawnlp=1381 
+
+09:16:42 state current=1 last=1 counter=  3 gcounter= 11 color black RGB 114.114.129 Segment color=cyan Dist.   0 Reflect  51 7.43V LED O  power loco  -27 ctl  -25 
+
+09:16:43 state current=2 last=2 counter=  0 gcounter= 12 color black RGB 106.100.117 Segment color=green Dist.   0 Reflect  28 7.47V LED OG power loco  -27 ctl  -25 
+
+09:16:44 state current=2 last=2 counter=  1 gcounter= 13 color black RGB  96. 98.112 Segment color=green Dist.   0 Reflect  56 7.52V LED O  power loco  -27 ctl  -25 
+
+09:16:45 state current=2 last=2 counter=  2 gcounter= 14 color cyan RGB 112.116.112 Segment color=green Dist.   0 Reflect  17 7.42V LED  G power loco  -27 ctl  -25 
+
+09:16:46 state current=2 last=2 counter=  3 gcounter= 15 color cyan RGB  70. 82. 78 Segment color=green Dist.   0 Reflect  30 7.54V LED OG power loco  -27 ctl  -25 
+
+09:16:47 state current=2 last=2 counter=  4 gcounter= 16 color black RGB  87. 93.105 Segment color=green Dist.   1 Reflect  47 7.51V LED  G power loco  -27 ctl  -25 
+
+09:16:49 state current=2 last=2 counter=  5 gcounter= 17 color cyan RGB 137.131.138 Segment color=cyan Dist.   0 Reflect  19 7.51V LED    power loco  -27 ctl  -25 
+
+09:16:50 state current=2 last=2 counter=  6 gcounter= 18 color violet RGB  81. 79. 79 Segment color=green Dist.   0 Reflect  17 7.53V LED  G power loco  -27 ctl  -25 
+
+09:16:51 state current=2 last=2 counter=  7 gcounter= 19 color green RGB  88. 87. 81 Segment color=green Dist.   4 Reflect  23 7.54V LED O  power loco  -27 ctl  -25 
+
+09:16:52 state current=2 last=2 counter=  8 gcounter= 20 color green RGB  31.111. 52 Segment color=green Dist.   0 Reflect  13 7.49V LED O  power loco  -27 ctl  -25 
+
+09:16:53 state current=2 last=2 counter=  9 gcounter= 21 color black RGB  43. 51. 53 Segment color=black Dist.   1 Reflect  34  7.4V LED OG power loco  -27 ctl  -25 
+09:16:53 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1430 
+
+09:16:54 state current=2 last=2 counter= 10 gcounter= 22 color green RGB 123.120.111 Segment color=green Dist.   1 Reflect  31 7.43V LED OG power loco  -27 ctl  -25 
+09:16:54 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1435 
+
+09:16:55 state current=2 last=2 counter= 11 gcounter= 23 color green RGB  63. 73. 62 Segment color=green Dist.   0 Reflect  16 7.44V LED  G power loco  -27 ctl  -25 
+09:16:55 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=1441 
+
+09:16:57 state current=2 last=2 counter= 12 gcounter= 24 color green RGB 108.107.108 Segment color=green Dist.   3 Reflect  34 7.39V LED  G power loco  -27 ctl  -25 
+
+09:16:58 state current=2 last=2 counter= 13 gcounter= 25 color black RGB  40. 47. 52 Segment color=black Dist.   0 Reflect  15 7.35V LED    power loco  -27 ctl  -25 
+
+09:16:59 state current=2 last=2 counter= 14 gcounter= 26 color green RGB 140.150.128 Segment color=cyan Dist.   1 Reflect  19 7.43V LED OG power loco  -27 ctl  -25 
+
+09:17:01 state current=2 last=2 counter= 15 gcounter= 27 color green RGB  57. 67. 64 Segment color=green Dist.   1 Reflect  13 7.37V LED  G power loco  -27 ctl  -25 
+
+09:17:02 state current=2 last=2 counter= 16 gcounter= 28 color black RGB  61. 68. 72 Segment color=green Dist.   1 Reflect  58 7.39V LED  G power loco  -27 ctl  -25 
+
+09:17:04 state current=2 last=2 counter= 17 gcounter= 29 color green RGB  45. 53. 53 Segment color=black Dist.   1 Reflect  33 7.44V LED  G power loco  -27 ctl  -25 
+
+09:17:05 state current=2 last=2 counter= 18 gcounter= 30 color white RGB 130.126.121 Segment color=green Dist.   1 Reflect  23  7.5V LED OG power loco  -27 ctl  -25 
+
+09:17:06 state current=2 last=2 counter= 19 gcounter= 31 color green RGB  47. 56. 60 Segment color=black Dist.   1 Reflect  52 7.32V LED OG power loco  -27 ctl  -25 
+09:17:06 /home/per/gitwork/juletog/pitrain/sounds/detjuldetcool.mp3 spawnlp=1494 
+
+09:17:07 state current=2 last=2 counter= 20 gcounter= 32 color cyan RGB 136.138.138 Segment color=cyan Dist.   1 Reflect  18 7.46V LED  G power loco  -27 ctl  -25 
+
+09:17:08 state current=2 last=2 counter= 21 gcounter= 33 color violet RGB  79. 80. 80 Segment color=green Dist.   1 Reflect  20 7.47V LED OG power loco  -27 ctl  -25 
+
+09:17:09 state current=2 last=2 counter= 22 gcounter= 34 color green RGB  52. 57. 57 Segment color=black Dist.   1 Reflect  19  7.4V LED O  power loco  -27 ctl  -25 
+
+09:17:10 state current=2 last=2 counter= 23 gcounter= 35 color green RGB 106.103.125 Segment color=green Dist.   0 Reflect  57 7.35V LED OG power loco  -27 ctl  -25 
+
+09:17:11 state current=2 last=2 counter= 24 gcounter= 36 color red RGB 204. 35. 45 Segment color=red Dist.   0 Reflect  82 7.33V LED    power loco  -27 ctl  -25 
+
+09:17:13 state current=2 last=2 counter= 25 gcounter= 37 color black RGB  68. 84.105 Segment color=green Dist.   0 Reflect  27 7.41V LED OG power loco  -27 ctl  -25 
+
+09:17:14 state current=2 last=2 counter= 26 gcounter= 38 color black RGB  81. 86.102 Segment color=green Dist.   3 Reflect  50 7.42V LED OG power loco  -27 ctl  -25 
+
+09:17:15 state current=2 last=2 counter= 27 gcounter= 39 color green RGB  47. 55. 61 Segment color=black Dist.   0 Reflect  41 7.38V LED    power loco  -27 ctl  -25 
+
+09:17:16 state current=2 last=2 counter= 28 gcounter= 40 color black RGB  52. 62. 67 Segment color=black Dist.   0 Reflect  46 7.39V LED  G power loco  -27 ctl  -25 
+
+09:17:18 state current=2 last=2 counter= 29 gcounter= 41 color cyan RGB 101.103.106 Segment color=green Dist.   0 Reflect  26 7.42V LED O  power loco  -27 ctl  -25 
+09:17:18 /home/per/gitwork/juletog/pitrain/sounds/TRNTram_Passing_tram_ID_0278_BSB.mp3 spawnlp=1544 
+
+09:17:19 state current=2 last=2 counter= 30 gcounter= 42 color green RGB  45. 59. 50 Segment color=black Dist.   1 Reflect  23 7.42V LED O  power loco  -27 ctl  -25 
+
+09:17:20 state current=2 last=2 counter= 31 gcounter= 43 color black RGB 109.107.124 Segment color=green Dist.   1 Reflect  46 7.31V LED    power loco  -27 ctl  -25 
+
+09:17:22 state current=2 last=2 counter= 32 gcounter= 44 color cyan RGB  97.103. 89 Segment color=green Dist.   0 Reflect  17 7.34V LED OG power loco  -27 ctl  -25 
+
+09:17:23 state current=2 last=2 counter= 33 gcounter= 45 color black RGB  42. 53. 52 Segment color=black Dist.   3 Reflect  27 7.36V LED OG power loco  -27 ctl  -25 
+
+09:17:24 state current=2 last=2 counter= 34 gcounter= 46 color green RGB  48. 58. 58 Segment color=black Dist.   1 Reflect  50 7.35V LED    power loco  -27 ctl  -25 
+
+09:17:25 state current=2 last=2 counter= 35 gcounter= 47 color black RGB 121.124.117 Segment color=green Dist.   1 Reflect  35 7.34V LED    power loco  -27 ctl  -25 
+
+09:17:26 state current=2 last=2 counter= 36 gcounter= 48 color black RGB  37. 44. 45 Segment color=black Dist.   0 Reflect  19 7.42V LED    power loco  -27 ctl  -25 
+
+09:17:27 state current=2 last=2 counter= 37 gcounter= 49 color black RGB  56. 65. 68 Segment color=green Dist.   1 Reflect  58 7.32V LED OG power loco  -27 ctl  -25 
+
+09:17:28 state current=2 last=2 counter= 38 gcounter= 50 color green RGB 141.142.129 Segment color=cyan Dist.   1 Reflect  23  7.4V LED  G power loco  -27 ctl  -25 
+
+09:17:30 state current=2 last=2 counter= 39 gcounter= 51 color green RGB  54. 67. 57 Segment color=green Dist.   0 Reflect  24 7.33V LED OG power loco  -27 ctl  -25 
+09:17:30 /home/per/gitwork/juletog/pitrain/sounds/GlaedeligJul.mp3 spawnlp=1590 
+
+09:17:31 state current=2 last=2 counter= 40 gcounter= 52 color green RGB  86. 87. 79 Segment color=green Dist.   1 Reflect  24 7.36V LED O  power loco  -27 ctl  -25 
+
+09:17:32 state current=2 last=2 counter= 41 gcounter= 53 color green RGB 119.110.117 Segment color=green Dist.   1 Reflect  40 7.39V LED OG power loco  -27 ctl  -25 
+
+09:17:33 state current=2 last=2 counter= 42 gcounter= 54 color green RGB  87. 84. 81 Segment color=green Dist.   0 Reflect  19 7.34V LED OG power loco  -27 ctl  -25 
+
+09:17:34 state current=2 last=2 counter= 43 gcounter= 55 color black RGB  46. 52. 59 Segment color=black Dist.   0 Reflect  40 7.41V LED OG power loco  -27 ctl  -25 
+
+09:17:35 state current=2 last=2 counter= 44 gcounter= 56 color black RGB  80. 83. 96 Segment color=green Dist.   1 Reflect  52 7.34V LED O  power loco  -27 ctl  -25 
+09:17:35 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=1614 
+
+09:17:38 state current=2 last=2 counter= 45 gcounter= 57 color cyan RGB 147.144.148 Segment color=cyan Dist.   0 Reflect  41 7.26V LED OG power loco  -27 ctl  -25 
+
+09:17:39 state current=2 last=2 counter= 46 gcounter= 58 color black RGB  79. 82. 95 Segment color=green Dist.   0 Reflect  50 7.31V LED O  power loco  -27 ctl  -25 
+
+09:17:40 state current=2 last=2 counter= 47 gcounter= 59 color green RGB  57. 65. 73 Segment color=green Dist.   0 Reflect  54 7.38V LED OG power loco  -27 ctl  -25 
+09:17:40 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=1636 
+
+09:17:41 state current=2 last=2 counter= 48 gcounter= 60 color cyan RGB  58. 67. 63 Segment color=green Dist.   0 Reflect  48 7.36V LED  G power loco  -27 ctl  -25 
+
+09:17:43 state current=2 last=2 counter= 49 gcounter= 61 color cyan RGB 126.122.129 Segment color=violet Dist.   3 Reflect  18 7.37V LED  G power loco  -27 ctl  -25 
+
+09:17:44 state current=2 last=2 counter= 50 gcounter= 62 color green RGB 117.113.125 Segment color=green Dist.   0 Reflect  33 7.32V LED    power loco  -27 ctl  -25 
+09:17:44 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=1650 
+
+09:17:45 state current=2 last=2 counter= 51 gcounter= 63 color green RGB 115.108.116 Segment color=green Dist.   0 Reflect  49 7.34V LED OG power loco  -27 ctl  -25 
+
+09:17:46 state current=2 last=2 counter= 52 gcounter= 64 color green RGB  87. 85. 80 Segment color=green Dist.   0 Reflect  19 7.39V LED  G power loco  -27 ctl  -25 
+
+09:17:47 state current=2 last=2 counter= 53 gcounter= 65 color green RGB  42. 49. 53 Segment color=black Dist.   0 Reflect  26 7.21V LED  G power loco  -27 ctl  -25 
+
+09:17:48 state current=2 last=2 counter= 54 gcounter= 66 color green RGB  77. 79. 69 Segment color=green Dist.   1 Reflect  18 7.29V LED  G power loco  -27 ctl  -25 
+
+09:17:49 state current=2 last=2 counter= 55 gcounter= 67 color green RGB 114.107.110 Segment color=green Dist.   1 Reflect  44 7.31V LED OG power loco  -27 ctl  -25 
+
+09:17:50 state current=2 last=2 counter= 56 gcounter= 68 color green RGB 118.110.110 Segment color=green Dist.   0 Reflect  42 7.39V LED  G power loco  -27 ctl  -25 
+09:17:50 /home/per/gitwork/juletog/pitrain/sounds/MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 spawnlp=1677 
+
+09:17:51 state current=2 last=2 counter= 57 gcounter= 69 color green RGB  61. 73. 63 Segment color=green Dist.   0 Reflect  23 7.33V LED OG power loco  -27 ctl  -25 
+
+09:17:52 state current=2 last=2 counter= 58 gcounter= 70 color green RGB 117.127. 97 Segment color=green Dist.   1 Reflect  18 7.28V LED    power loco  -27 ctl  -25 
+
+09:17:54 state current=2 last=2 counter= 59 gcounter= 71 color black RGB  38. 44. 47 Segment color=black Dist.   1 Reflect  17 7.24V LED O  power loco  -27 ctl  -25 
+
+09:17:55 state current=2 last=2 counter= 60 gcounter= 72 color green RGB 101.104. 84 Segment color=green Dist.   2 Reflect  17 7.31V LED O  power loco  -27 ctl  -25 
+
+09:17:56 state current=2 last=2 counter= 61 gcounter= 73 color green RGB 123.125.108 Segment color=green Dist.   1 Reflect  35 7.38V LED    power loco  -27 ctl  -25 
+
+09:17:58 state current=2 last=2 counter= 62 gcounter= 74 color green RGB 127.125.113 Segment color=green Dist.   0 Reflect  33 7.24V LED OG power loco  -27 ctl  -25 
+
+09:17:59 state current=2 last=2 counter= 63 gcounter= 75 color green RGB 153.155.133 Segment color=cyan Dist.   0 Reflect  31 7.25V LED OG power loco  -27 ctl  -25 
+
+09:18:00 state current=2 last=2 counter= 64 gcounter= 76 color cyan RGB  64. 71. 65 Segment color=green Dist.   0 Reflect  23 7.38V LED  G power loco  -27 ctl  -25 
+09:18:00 /home/per/gitwork/juletog/pitrain/sounds/KomJulSneGaver.mp3 spawnlp=1718 
+
+09:18:01 state current=2 last=2 counter= 65 gcounter= 77 color green RGB  47. 55. 57 Segment color=black Dist.   1 Reflect  51  7.3V LED    power loco  -27 ctl  -25 
+
+09:18:02 state current=2 last=2 counter= 66 gcounter= 78 color cyan RGB 118.121.109 Segment color=green Dist.   1 Reflect  16 7.31V LED    power loco  -27 ctl  -25 
+
+09:18:03 state current=2 last=2 counter= 67 gcounter= 79 color black RGB 113.113.131 Segment color=violet Dist.   3 Reflect  41 7.32V LED  G power loco  -27 ctl  -25 
+
+09:18:04 state current=2 last=2 counter= 68 gcounter= 80 color black RGB  45. 54. 49 Segment color=black Dist.   0 Reflect  15 7.33V LED    power loco  -27 ctl  -25 
+
+09:18:06 state current=2 last=2 counter= 69 gcounter= 81 color cyan RGB 130.127.131 Segment color=cyan Dist.   1 Reflect  42 7.21V LED    power loco  -27 ctl  -25 
+
+09:18:07 state current=2 last=2 counter= 70 gcounter= 82 color black RGB  67. 76. 82 Segment color=green Dist.   0 Reflect  40 7.27V LED OG power loco  -27 ctl  -25 
+
+09:18:08 state current=2 last=2 counter= 71 gcounter= 83 color red RGB 158. 78.102 Segment color=red Dist.   1 Reflect  33 7.28V LED O  power loco  -27 ctl  -25 
+
+09:18:09 state current=2 last=2 counter= 72 gcounter= 84 color green RGB  80. 94. 98 Segment color=green Dist.   0 Reflect  25 7.24V LED O  power loco  -27 ctl  -25 
+
+09:18:10 state current=2 last=2 counter= 73 gcounter= 85 color green RGB  81. 83. 78 Segment color=green Dist.   3 Reflect  20 7.31V LED OG power loco  -27 ctl  -25 
+
+09:18:11 state current=2 last=2 counter= 74 gcounter= 86 color black RGB  59. 62. 74 Segment color=black Dist.   0 Reflect  48 7.32V LED  G power loco  -27 ctl  -25 
+
+09:18:12 state current=3 last=3 counter=  0 gcounter= 87 color green RGB 140.137.149 Segment color=cyan Dist.   0 Reflect  34 7.19V LED OG power loco  -27 ctl  -25 
+
+09:18:13 state current=3 last=3 counter=  1 gcounter= 88 color green RGB 117.118.137 Segment color=cyan Dist.   0 Reflect  38 7.33V LED OG power loco  -27 ctl  -25 
+
+09:18:14 state current=3 last=3 counter=  2 gcounter= 89 color cyan RGB 106.106.107 Segment color=green Dist.   0 Reflect  18 7.24V LED OG power loco  -27 ctl  -25 
+
+09:18:16 state current=3 last=3 counter=  3 gcounter= 90 color green RGB 136.131.137 Segment color=cyan Dist.   0 Reflect  46  7.3V LED    power loco  -27 ctl  -25 
+09:18:16 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=1781 
+
+09:18:17 state current=3 last=3 counter=  4 gcounter= 91 color green RGB 101.110.105 Segment color=green Dist.   0 Reflect  10 7.23V LED    power loco  -27 ctl  -25 
+09:18:17 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=1786 
+
+09:18:18 state current=3 last=3 counter=  5 gcounter= 92 color cyan RGB 115.117.108 Segment color=green Dist.   1 Reflect  16 7.26V LED    power loco  -27 ctl  -25 
+09:18:18 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=1792 
+
+09:18:19 state current=3 last=3 counter=  6 gcounter= 93 color green RGB  43. 53. 56 Segment color=black Dist.   1 Reflect  43 7.32V LED O  power loco  -27 ctl  -25 
+09:18:19 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=1797 
+
+09:18:20 state current=3 last=3 counter=  7 gcounter= 94 color green RGB 134.135.123 Segment color=cyan Dist.   1 Reflect  29 7.32V LED OG power loco  -27 ctl  -25 
+
+09:18:21 state current=0 last=0 counter=  0 gcounter= 95 color green RGB  58. 67. 69 Segment color=green Dist.   0 Reflect  23 7.53V LED OG power loco  -27 ctl  -25 
+
+09:18:22 state current=0 last=0 counter=  1 gcounter= 96 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  22  7.5V LED O  power loco  -27 ctl  -25 
+
+09:18:23 state current=0 last=0 counter=  2 gcounter= 97 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:18:24 state current=0 last=0 counter=  3 gcounter= 98 color green RGB  57. 67. 69 Segment color=green Dist.   1 Reflect  23 7.52V LED OG power loco  -27 ctl  -25 
+
+09:18:25 state current=0 last=0 counter=  4 gcounter= 99 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  24 7.56V LED O  power loco  -27 ctl  -25 
+09:18:26 /home/per/gitwork/juletog/pitrain/sounds/FARTMisc_Pony_flatulence_2_ID_1855_BSB.mp3 spawnlp=1824 
+
+09:18:27 state current=0 last=0 counter=  5 gcounter=100 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED O  power loco  -27 ctl  -25 
+
+09:18:28 state current=0 last=0 counter=  6 gcounter=101 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.57V LED    power loco  -27 ctl  -25 
+
+09:18:29 state current=0 last=0 counter=  7 gcounter=102 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  24 7.58V LED O  power loco  -27 ctl  -25 
+
+09:18:30 state current=0 last=0 counter=  8 gcounter=103 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED    power loco  -27 ctl  -25 
+
+09:18:31 state current=0 last=0 counter=  9 gcounter=104 color green RGB  57. 66. 68 Segment color=green Dist.   1 Reflect  23 7.55V LED  G power loco  -27 ctl  -25 
+
+09:18:32 state current=0 last=0 counter= 10 gcounter=105 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  23 7.54V LED    power loco  -27 ctl  -25 
+
+09:18:33 state current=0 last=0 counter= 11 gcounter=106 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.62V LED  G power loco  -27 ctl  -25 
+
+09:18:34 state current=0 last=0 counter= 12 gcounter=107 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  24 7.58V LED  G power loco  -27 ctl  -25 
+
+09:18:35 state current=0 last=0 counter= 13 gcounter=108 color green RGB  60. 68. 68 Segment color=green Dist.   1 Reflect  23 7.57V LED  G power loco  -27 ctl  -25 
+
+09:18:37 state current=0 last=0 counter= 14 gcounter=109 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.53V LED    power loco  -27 ctl  -25 
+
+09:18:38 state current=0 last=0 counter= 15 gcounter=110 color green RGB  59. 67. 67 Segment color=green Dist.   1 Reflect  23 7.63V LED    power loco  -27 ctl  -25 
+
+09:18:39 state current=0 last=0 counter= 16 gcounter=111 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.53V LED OG power loco  -27 ctl  -25 
+
+09:18:40 state current=0 last=0 counter= 17 gcounter=112 color green RGB  58. 66. 67 Segment color=green Dist.   1 Reflect  23 7.56V LED O  power loco  -27 ctl  -25 
+
+09:18:41 state current=0 last=0 counter= 18 gcounter=113 color green RGB  58. 66. 67 Segment color=green Dist.   1 Reflect  23 7.53V LED O  power loco  -27 ctl  -25 
+
+09:18:42 state current=0 last=0 counter= 19 gcounter=114 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  22 7.54V LED OG power loco  -27 ctl  -25 
+
+09:18:43 state current=0 last=0 counter= 20 gcounter=115 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23  7.6V LED O  power loco  -27 ctl  -25 
+
+09:18:44 state current=0 last=0 counter= 21 gcounter=116 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:18:45 state current=0 last=0 counter= 22 gcounter=117 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED  G power loco  -27 ctl  -25 
+
+09:18:46 state current=0 last=0 counter= 23 gcounter=118 color green RGB  57. 67. 68 Segment color=green Dist.   1 Reflect  23 7.62V LED    power loco  -27 ctl  -25 
+
+09:18:48 state current=0 last=0 counter= 24 gcounter=119 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.63V LED    power loco  -27 ctl  -25 
+
+09:18:49 state current=0 last=0 counter= 25 gcounter=120 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22 7.62V LED OG power loco  -27 ctl  -25 
+
+09:18:50 state current=0 last=0 counter= 26 gcounter=121 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  22 7.55V LED    power loco  -27 ctl  -25 
+
+09:18:51 state current=0 last=0 counter= 27 gcounter=122 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.61V LED  G power loco  -27 ctl  -25 
+
+09:18:52 state current=0 last=0 counter= 28 gcounter=123 color green RGB  57. 66. 68 Segment color=green Dist.   1 Reflect  24 7.57V LED  G power loco  -27 ctl  -25 
+
+09:18:53 state current=0 last=0 counter= 29 gcounter=124 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:18:54 state current=0 last=0 counter= 30 gcounter=125 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.61V LED  G power loco  -27 ctl  -25 
+
+09:18:55 state current=0 last=0 counter= 31 gcounter=126 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  24 7.59V LED O  power loco  -27 ctl  -25 
+
+09:18:56 state current=0 last=0 counter= 32 gcounter=127 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.64V LED OG power loco  -27 ctl  -25 
+
+09:18:58 state current=0 last=0 counter= 33 gcounter=128 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  22 7.61V LED OG power loco  -27 ctl  -25 
+
+09:18:59 state current=0 last=0 counter= 34 gcounter=129 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.57V LED    power loco  -27 ctl  -25 
+
+09:19:00 state current=0 last=0 counter= 35 gcounter=130 color green RGB  58. 67. 69 Segment color=green Dist.   1 Reflect  23 7.54V LED  G power loco  -27 ctl  -25 
+
+09:19:01 state current=0 last=0 counter= 36 gcounter=131 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  22 7.61V LED OG power loco  -27 ctl  -25 
+
+09:19:02 state current=0 last=0 counter= 37 gcounter=132 color green RGB  58. 68. 70 Segment color=green Dist.   1 Reflect  23 7.62V LED  G power loco  -27 ctl  -25 
+
+09:19:03 state current=0 last=0 counter= 38 gcounter=133 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.55V LED OG power loco  -27 ctl  -25 
+
+09:19:04 state current=0 last=0 counter= 39 gcounter=134 color green RGB  58. 67. 69 Segment color=green Dist.   1 Reflect  22 7.58V LED  G power loco  -27 ctl  -25 
+
+09:19:05 state current=0 last=0 counter= 40 gcounter=135 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.62V LED    power loco  -27 ctl  -25 
+
+09:19:06 state current=0 last=0 counter= 41 gcounter=136 color green RGB  58. 67. 69 Segment color=green Dist.   1 Reflect  23 7.65V LED O  power loco  -27 ctl  -25 
+
+09:19:07 state current=0 last=0 counter= 42 gcounter=137 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  22 7.59V LED O  power loco  -27 ctl  -25 
+
+09:19:09 state current=0 last=0 counter= 43 gcounter=138 color green RGB  58. 70. 69 Segment color=green Dist.   1 Reflect  24 7.59V LED O  power loco  -27 ctl  -25 
+
+09:19:10 state current=0 last=0 counter= 44 gcounter=139 color green RGB  57. 67. 68 Segment color=green Dist.   1 Reflect  23 7.63V LED  G power loco  -27 ctl  -25 
+
+09:19:11 state current=0 last=0 counter= 45 gcounter=140 color green RGB  58. 67. 69 Segment color=green Dist.   1 Reflect  23 7.58V LED O  power loco  -27 ctl  -25 
+
+09:19:12 state current=0 last=0 counter= 46 gcounter=141 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.61V LED OG power loco  -27 ctl  -25 
+
+09:19:13 state current=0 last=0 counter= 47 gcounter=142 color green RGB  58. 69. 69 Segment color=green Dist.   1 Reflect  23 7.55V LED    power loco  -27 ctl  -25 
+
+09:19:14 state current=0 last=0 counter= 48 gcounter=143 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  24 7.61V LED O  power loco  -27 ctl  -25 
+
+09:19:15 state current=0 last=0 counter= 49 gcounter=144 color green RGB  58. 69. 70 Segment color=green Dist.   1 Reflect  23 7.58V LED OG power loco  -27 ctl  -25 
+
+09:19:16 state current=0 last=0 counter= 50 gcounter=145 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  24 7.62V LED O  power loco  -27 ctl  -25 
+
+09:19:17 state current=0 last=0 counter= 51 gcounter=146 color green RGB  59. 67. 67 Segment color=green Dist.   1 Reflect  23 7.55V LED  G power loco  -27 ctl  -25 
+
+09:19:18 state current=0 last=0 counter= 52 gcounter=147 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.64V LED OG power loco  -27 ctl  -25 
+
+09:19:20 state current=0 last=0 counter= 53 gcounter=148 color green RGB  59. 69. 70 Segment color=green Dist.   1 Reflect  23 7.64V LED  G power loco  -27 ctl  -25 
+
+09:19:21 state current=0 last=0 counter= 54 gcounter=149 color green RGB  58. 67. 67 Segment color=green Dist.   1 Reflect  23 7.63V LED  G power loco  -27 ctl  -25 
+09:19:21 /home/per/gitwork/juletog/pitrain/sounds/ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 spawnlp=2049 
+
+09:19:22 state current=0 last=0 counter= 55 gcounter=150 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.55V LED O  power loco  -27 ctl  -25 
+
+09:19:23 state current=0 last=0 counter= 56 gcounter=151 color green RGB  59. 67. 67 Segment color=green Dist.   1 Reflect  24 7.54V LED OG power loco  -27 ctl  -25 
+
+09:19:24 state current=0 last=0 counter= 57 gcounter=152 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED OG power loco  -27 ctl  -25 
+
+09:19:25 state current=0 last=0 counter= 58 gcounter=153 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  23 7.58V LED OG power loco  -27 ctl  -25 
+
+09:19:26 state current=0 last=0 counter= 59 gcounter=154 color green RGB  57. 66. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED    power loco  -27 ctl  -25 
+
+09:19:27 state current=0 last=0 counter= 60 gcounter=155 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  23 7.53V LED OG power loco  -27 ctl  -25 
+
+09:19:28 state current=0 last=0 counter= 61 gcounter=156 color green RGB  58. 69. 69 Segment color=green Dist.   1 Reflect  23 7.64V LED    power loco  -27 ctl  -25 
+
+09:19:30 state current=0 last=0 counter= 62 gcounter=157 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:19:31 state current=0 last=0 counter= 63 gcounter=158 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  23 7.58V LED  G power loco  -27 ctl  -25 
+
+09:19:32 state current=0 last=0 counter= 64 gcounter=159 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED  G power loco  -27 ctl  -25 
+
+09:19:33 state current=0 last=0 counter= 65 gcounter=160 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22 7.58V LED O  power loco  -27 ctl  -25 
+
+09:19:34 state current=0 last=0 counter= 66 gcounter=161 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  23 7.63V LED  G power loco  -27 ctl  -25 
+
+09:19:35 state current=0 last=0 counter= 67 gcounter=162 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:19:36 state current=0 last=0 counter= 68 gcounter=163 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  24 7.55V LED  G power loco  -27 ctl  -25 
+
+09:19:37 state current=0 last=0 counter= 69 gcounter=164 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:19:38 state current=0 last=0 counter= 70 gcounter=165 color green RGB  60. 70. 69 Segment color=green Dist.   1 Reflect  23 7.63V LED  G power loco  -27 ctl  -25 
+
+09:19:39 state current=0 last=0 counter= 71 gcounter=166 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.57V LED    power loco  -27 ctl  -25 
+
+09:19:41 state current=0 last=0 counter= 72 gcounter=167 color green RGB  57. 68. 69 Segment color=green Dist.   1 Reflect  22 7.56V LED  G power loco  -27 ctl  -25 
+
+09:19:42 state current=0 last=0 counter= 73 gcounter=168 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.58V LED  G power loco  -27 ctl  -25 
+
+09:19:43 state current=0 last=0 counter= 74 gcounter=169 color green RGB  59. 67. 67 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:19:44 state current=0 last=0 counter= 75 gcounter=170 color green RGB  58. 66. 67 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:19:45 state current=0 last=0 counter= 76 gcounter=171 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED O  power loco  -27 ctl  -25 
+
+09:19:46 state current=0 last=0 counter= 77 gcounter=172 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22 7.53V LED OG power loco  -27 ctl  -25 
+
+09:19:47 state current=0 last=0 counter= 78 gcounter=173 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:19:48 state current=0 last=0 counter= 79 gcounter=174 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.57V LED OG power loco  -27 ctl  -25 
+
+09:19:49 state current=0 last=0 counter= 80 gcounter=175 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED    power loco  -27 ctl  -25 
+
+09:19:51 state current=0 last=0 counter= 81 gcounter=176 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22  7.6V LED  G power loco  -27 ctl  -25 
+
+09:19:52 state current=0 last=0 counter= 82 gcounter=177 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  25  7.6V LED O  power loco  -27 ctl  -25 
+
+09:19:53 state current=0 last=0 counter= 83 gcounter=178 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.64V LED OG power loco  -27 ctl  -25 
+
+09:19:54 state current=0 last=0 counter= 84 gcounter=179 color green RGB  57. 67. 69 Segment color=green Dist.   1 Reflect  23 7.56V LED O  power loco  -27 ctl  -25 
+
+09:19:55 state current=0 last=0 counter= 85 gcounter=180 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  24 7.59V LED O  power loco  -27 ctl  -25 
+
+09:19:56 state current=0 last=0 counter= 86 gcounter=181 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.61V LED OG power loco  -27 ctl  -25 
+
+09:19:57 state current=0 last=0 counter= 87 gcounter=182 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED  G power loco  -27 ctl  -25 
+
+09:19:58 state current=0 last=0 counter= 88 gcounter=183 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.61V LED O  power loco  -27 ctl  -25 
+
+09:19:59 state current=0 last=0 counter= 89 gcounter=184 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:20:00 state current=0 last=0 counter= 90 gcounter=185 color green RGB  58. 67. 69 Segment color=green Dist.   1 Reflect  23 7.57V LED    power loco  -27 ctl  -25 
+
+09:20:02 state current=0 last=0 counter= 91 gcounter=186 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.65V LED OG power loco  -27 ctl  -25 
+
+09:20:03 state current=0 last=0 counter= 92 gcounter=187 color green RGB  60. 69. 69 Segment color=green Dist.   1 Reflect  24 7.63V LED  G power loco  -27 ctl  -25 
+
+09:20:04 state current=0 last=0 counter= 93 gcounter=188 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  24 7.59V LED    power loco  -27 ctl  -25 
+
+09:20:05 state current=0 last=0 counter= 94 gcounter=189 color green RGB  60. 68. 68 Segment color=green Dist.   1 Reflect  22 7.53V LED OG power loco  -27 ctl  -25 
+
+09:20:06 state current=0 last=0 counter= 95 gcounter=190 color green RGB  58. 69. 69 Segment color=green Dist.   1 Reflect  23 7.62V LED O  power loco  -27 ctl  -25 
+
+09:20:07 state current=0 last=0 counter= 96 gcounter=191 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 7.62V LED    power loco  -27 ctl  -25 
+
+09:20:08 state current=0 last=0 counter= 97 gcounter=192 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  23 7.55V LED  G power loco  -27 ctl  -25 
+
+09:20:09 state current=0 last=0 counter= 98 gcounter=193 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.65V LED O  power loco  -27 ctl  -25 
+
+09:20:10 state current=0 last=0 counter= 99 gcounter=194 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.61V LED OG power loco  -27 ctl  -25 
+
+09:20:12 state current=0 last=0 counter=100 gcounter=195 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:20:13 state current=0 last=0 counter=101 gcounter=196 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED OG power loco  -27 ctl  -25 
+
+09:20:14 state current=0 last=0 counter=102 gcounter=197 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  23 7.57V LED  G power loco  -27 ctl  -25 
+
+09:20:15 state current=0 last=0 counter=103 gcounter=198 color green RGB  60. 68. 68 Segment color=green Dist.   1 Reflect  23 7.65V LED    power loco  -27 ctl  -25 
+
+09:20:16 state current=0 last=0 counter=104 gcounter=199 color green RGB  57. 66. 67 Segment color=green Dist.   1 Reflect  23 7.63V LED O  power loco  -27 ctl  -25 
+09:20:16 /home/per/gitwork/juletog/pitrain/sounds/VOXMale_Santa_claus_oh_oh_oh_5_ID_2078_BSB.mp3 spawnlp=2273 
+
+09:20:17 state current=0 last=0 counter=105 gcounter=200 color green RGB  60. 70. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED O  power loco  -27 ctl  -25 
+
+09:20:18 state current=0 last=0 counter=106 gcounter=201 color green RGB  58. 68. 69 Segment color=green Dist.   1 Reflect  24 7.55V LED O  power loco  -27 ctl  -25 
+
+09:20:19 state current=0 last=0 counter=107 gcounter=202 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  24 7.59V LED OG power loco  -27 ctl  -25 
+
+09:20:20 state current=0 last=0 counter=108 gcounter=203 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.62V LED    power loco  -27 ctl  -25 
+
+09:20:22 state current=0 last=0 counter=109 gcounter=204 color green RGB  58. 69. 70 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:20:23 state current=0 last=0 counter=110 gcounter=205 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  23 7.63V LED    power loco  -27 ctl  -25 
+
+09:20:24 state current=0 last=0 counter=111 gcounter=206 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.58V LED OG power loco  -27 ctl  -25 
+
+09:20:25 state current=0 last=0 counter=112 gcounter=207 color green RGB  59. 69. 69 Segment color=green Dist.   1 Reflect  25 7.61V LED  G power loco  -27 ctl  -25 
+
+09:20:26 state current=0 last=0 counter=113 gcounter=208 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  24 7.58V LED  G power loco  -27 ctl  -25 
+
+09:20:31 state current=0 last=0 counter=114 gcounter=209 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22 09:21:00 hat_monitor: current=209 last=209 
+09:21:00 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=2453 
+7.53V LED O  power loco  -27 ctl  -25 
+
+09:21:01 state current=0 last=0 counter=115 gcounter=210 color green RGB  58. 68. 68 Segment color=green Dist.   1 Reflect  23 09:21:30 hat_monitor: current=210 last=210 
+09:21:30 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=2575 
+7.61V LED  G power loco  -27 ctl  -25 
+
+09:21:31 state current=0 last=0 counter=116 gcounter=211 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 09:22:00 hat_monitor: current=211 last=211 
+09:22:00 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=2696 
+7.52V LED    power loco  -27 ctl  -25 
+
+09:22:01 state current=0 last=0 counter=117 gcounter=212 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  23 09:22:30 hat_monitor: current=212 last=212 
+09:22:30 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=2817 
+7.57V LED O  power loco  -27 ctl  -25 
+09:22:30 byebye 
+09:22:31 sleep
+09:22:41 git pull
+Already up to date.
+09:22:43 python testhat.py
+testhat
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+7.54V 
+HAT OK
+09:22:45 python run.py
+hello pitrain
+{'A': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}, 'B': {'typeid': -1, 'connected': False, 'name': 'Disconnected', 'description': ''}, 'C': {'typeid': 37, 'connected': True, 'name': 'ColorDistanceSensor', 'description': 'Color & Distance Sensor'}, 'D': {'typeid': 2, 'connected': True, 'name': 'PassiveMotor', 'description': 'PassiveMotor'}}
+09:22:46 7.59V 
+09:22:46 not connected to charger 
+09:22:46 /home/per/gitwork/juletog/pitrain/sounds/ALRMBell_Bell_of_a_level_crossing_ID_0899_BSB.mp3 spawnlp=2860 
+
+09:22:47 state current=0 last=0 counter=  0 gcounter=  0 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  22 7.53V LED  G power loco  -27 ctl  -25 
+
+09:22:48 state current=0 last=0 counter=  1 gcounter=  1 color green RGB  57. 68. 69 Segment color=green Dist.   1 Reflect  23 7.57V LED    power loco  -27 ctl  -25 
+
+09:22:49 state current=0 last=0 counter=  2 gcounter=  2 color green RGB  57. 66. 68 Segment color=green Dist.   1 Reflect  23 7.55V LED    power loco  -27 ctl  -25 
+
+09:22:50 state current=0 last=0 counter=  3 gcounter=  3 color green RGB  60. 69. 68 Segment color=green Dist.   1 Reflect  23 7.56V LED O  power loco  -27 ctl  -25 
+
+09:22:51 state current=0 last=0 counter=  4 gcounter=  4 color green RGB  59. 67. 68 Segment color=green Dist.   1 Reflect  22 7.59V LED    power loco  -27 ctl  -25 
+
+09:22:52 state current=0 last=0 counter=  5 gcounter=  5 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  22 7.59V LED O  power loco  -27 ctl  -25 
+
+09:22:53 state current=0 last=0 counter=  6 gcounter=  6 color green RGB  59. 68. 69 Segment color=green Dist.   1 Reflect  23 7.59V LED O  power loco  -27 ctl  -25 
+
+09:22:54 state current=0 last=0 counter=  7 gcounter=  7 color green RGB  58. 67. 68 Segment color=green Dist.   1 Reflect  23 7.59V LED  G power loco  -27 ctl  -25 
+
+09:22:55 state current=1 last=0 counter=  8 gcounter=  8 color green RGB  59. 68. 68 Segment color=green Dist.   1 Reflect  23 7.57V LED OG power loco  -27 ctl  -25 
+
+09:22:56 state current=1 last=1 counter=  0 gcounter=  9 color green RGB  59. 70. 69 Segment color=green Dist.   1 Reflect  23 7.56V LED  G power loco  -27 ctl  -25 
+09:22:57 power_loco=-27 power_control=-25 
+
+09:22:58 state current=1 last=1 counter=  1 gcounter= 10 color green RGB  48. 60. 63 Segment color=black Dist.   1 Reflect  47 7.24V LED O  power loco  -27 ctl  -25 
+
+09:22:59 state current=1 last=1 counter=  2 gcounter= 11 color green RGB  44. 52. 54 Segment color=black Dist.   1 Reflect  43 7.39V LED OG power loco  -27 ctl  -25 
+09:22:59 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Hiss_of_steam_train_1_ID_0227_BSB.mp3 spawnlp=2912 
+
+09:23:00 state current=1 last=1 counter=  3 gcounter= 12 color black RGB  37. 42. 44 Segment color=black Dist.   1 Reflect  18 7.35V LED    power loco  -27 ctl  -25 
+
+09:23:01 state current=2 last=2 counter=  0 gcounter= 13 color cyan RGB  82. 94. 78 Segment color=green Dist.   2 Reflect  22 7.24V LED    power loco  -27 ctl  -25 
+
+09:23:02 state current=2 last=2 counter=  1 gcounter= 14 color black RGB  59. 62. 69 Segment color=black Dist.   1 Reflect  51  7.2V LED  G power loco  -27 ctl  -25 
+
+09:23:03 state current=2 last=2 counter=  2 gcounter= 15 color green RGB 118.114.103 Segment color=green Dist.   0 Reflect  28 7.31V LED    power loco  -27 ctl  -25 
+
+09:23:04 state current=2 last=2 counter=  3 gcounter= 16 color black RGB  57. 63. 68 Segment color=black Dist.   0 Reflect  45 7.36V LED OG power loco  -27 ctl  -25 
+
+09:23:05 state current=2 last=2 counter=  4 gcounter= 17 color black RGB  43. 48. 54 Segment color=black Dist.   0 Reflect  22 7.27V LED  G power loco  -27 ctl  -25 
+
+09:23:06 state current=2 last=2 counter=  5 gcounter= 18 color green RGB  52. 59. 56 Segment color=black Dist.   1 Reflect  16 7.23V LED OG power loco  -27 ctl  -25 
+
+09:23:08 state current=2 last=2 counter=  6 gcounter= 19 color violet RGB 127.123.130 Segment color=violet Dist.   3 Reflect  34  7.2V LED    power loco  -27 ctl  -25 
+
+09:23:09 state current=2 last=2 counter=  7 gcounter= 20 color violet RGB 137.127.145 Segment color=violet Dist.   0 Reflect  55 7.23V LED    power loco  -27 ctl  -25 
+
+09:23:10 state current=2 last=2 counter=  8 gcounter= 21 color violet RGB 145.137.143 Segment color=cyan Dist.   0 Reflect  34 7.27V LED  G power loco  -27 ctl  -25 
+
+09:23:11 state current=2 last=2 counter=  9 gcounter= 22 color green RGB 126.126.139 Segment color=cyan Dist.   0 Reflect  54 7.16V LED OG power loco  -27 ctl  -25 
+09:23:11 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=2962 
+
+09:23:12 state current=2 last=2 counter= 10 gcounter= 23 color green RGB  42. 52. 56 Segment color=black Dist.   0 Reflect  20 7.17V LED    power loco  -27 ctl  -25 
+09:23:12 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=2967 
+
+09:23:13 state current=2 last=2 counter= 11 gcounter= 24 color cyan RGB  66. 77. 65 Segment color=green Dist.   0 Reflect  16 7.22V LED OG power loco  -27 ctl  -25 
+09:23:13 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_1_ID_0225_BSB.mp3 spawnlp=2973 
+
+09:23:14 state current=2 last=2 counter= 12 gcounter= 25 color green RGB  47. 54. 60 Segment color=black Dist.   1 Reflect  53 7.19V LED O  power loco  -27 ctl  -25 
+
+09:23:15 state current=2 last=2 counter= 13 gcounter= 26 color green RGB  51. 60. 63 Segment color=black Dist.   1 Reflect  70 7.19V LED OG power loco  -27 ctl  -25 
+
+09:23:16 state current=2 last=2 counter= 14 gcounter= 27 color green RGB  46. 57. 61 Segment color=black Dist.   1 Reflect  47 7.15V LED    power loco  -27 ctl  -25 
+
+09:23:18 state current=2 last=2 counter= 15 gcounter= 28 color cyan RGB  87. 90. 91 Segment color=green Dist.   1 Reflect  17 7.21V LED  G power loco  -27 ctl  -25 
+
+09:23:19 state current=2 last=2 counter= 16 gcounter= 29 color black RGB 115.108.123 Segment color=green Dist.   3 Reflect  44 7.38V LED OG power loco  -27 ctl  -25 
+
+09:23:20 state current=2 last=2 counter= 17 gcounter= 30 color black RGB  67. 74. 81 Segment color=green Dist.   0 Reflect  38 7.35V LED O  power loco  -27 ctl  -25 
+
+09:23:21 state current=2 last=2 counter= 18 gcounter= 31 color green RGB  32.112. 52 Segment color=green Dist.   0 Reflect  22 7.19V LED O  power loco  -27 ctl  -25 
+
+09:23:22 state current=2 last=2 counter= 19 gcounter= 32 color green RGB 115.106.109 Segment color=green Dist.   1 Reflect  39 7.17V LED OG power loco  -27 ctl  -25 
+09:23:22 /home/per/gitwork/juletog/pitrain/sounds/detjuldetcool.mp3 spawnlp=3010 
+
+09:23:23 state current=2 last=2 counter= 20 gcounter= 33 color green RGB 112.101.104 Segment color=green Dist.   0 Reflect  48 7.35V LED  G power loco  -27 ctl  -25 
+
+09:23:24 state current=2 last=2 counter= 21 gcounter= 34 color black RGB  34. 46. 46 Segment color=black Dist.   0 Reflect  28 7.29V LED    power loco  -27 ctl  -25 
+
+09:23:25 state current=2 last=2 counter= 22 gcounter= 35 color green RGB 118.114.102 Segment color=green Dist.   0 Reflect  40 7.27V LED OG power loco  -27 ctl  -25 
+
+09:23:26 state current=2 last=2 counter= 23 gcounter= 36 color black RGB  42. 51. 53 Segment color=black Dist.   0 Reflect  18 7.14V LED    power loco  -27 ctl  -25 
+
+09:23:28 state current=2 last=2 counter= 24 gcounter= 37 color black RGB  48. 55. 59 Segment color=black Dist.   1 Reflect  43 7.18V LED OG power loco  -27 ctl  -25 
+
+09:23:29 state current=2 last=2 counter= 25 gcounter= 38 color green RGB 106.116. 93 Segment color=green Dist.   1 Reflect  17 7.27V LED    power loco  -27 ctl  -25 
+
+09:23:30 state current=2 last=2 counter= 26 gcounter= 39 color green RGB  82. 89. 71 Segment color=green Dist.   1 Reflect  18 7.26V LED  G power loco  -27 ctl  -25 
+
+09:23:31 state current=2 last=2 counter= 27 gcounter= 40 color green RGB 112.115. 99 Segment color=green Dist.   1 Reflect  32 7.14V LED O  power loco  -27 ctl  -25 
+
+09:23:32 state current=2 last=2 counter= 28 gcounter= 41 color black RGB  44. 52. 52 Segment color=black Dist.   0 Reflect  33 7.25V LED    power loco  -27 ctl  -25 
+
+09:23:33 state current=2 last=2 counter= 29 gcounter= 42 color black RGB  44. 52. 55 Segment color=black Dist.   1 Reflect  15 7.18V LED    power loco  -27 ctl  -25 
+09:23:33 /home/per/gitwork/juletog/pitrain/sounds/TRNTram_Passing_tram_ID_0278_BSB.mp3 spawnlp=3055 
+
+09:23:34 state current=2 last=2 counter= 30 gcounter= 43 color green RGB  43. 53. 52 Segment color=black Dist.   1 Reflect  50 7.15V LED OG power loco  -27 ctl  -25 
+
+09:23:35 state current=2 last=2 counter= 31 gcounter= 44 color black RGB  80. 89. 95 Segment color=green Dist.   1 Reflect  64  7.3V LED  G power loco  -27 ctl  -25 
+
+09:23:36 state current=2 last=2 counter= 32 gcounter= 45 color green RGB 158.153.166 Segment color=white Dist.   0 Reflect  36 7.15V LED  G power loco  -27 ctl  -25 
+
+09:23:37 state current=2 last=2 counter= 33 gcounter= 46 color green RGB  49. 58. 63 Segment color=black Dist.   0 Reflect  47 7.35V LED  G power loco  -27 ctl  -25 
+
+09:23:39 state current=2 last=2 counter= 34 gcounter= 47 color cyan RGB  82. 81. 81 Segment color=green Dist.   2 Reflect  23 7.29V LED O  power loco  -27 ctl  -25 
+
+09:23:40 state current=2 last=2 counter= 35 gcounter= 48 color black RGB  36. 41. 43 Segment color=black Dist.   2 Reflect  37 7.24V LED OG power loco  -27 ctl  -25 
+
+09:23:41 state current=2 last=2 counter= 36 gcounter= 49 color green RGB 130.127.136 Segment color=cyan Dist.   2 Reflect  43 7.19V LED    power loco  -27 ctl  -25 
+
+09:23:42 state current=2 last=2 counter= 37 gcounter= 50 color cyan RGB  98. 98. 99 Segment color=green Dist.   0 Reflect  16 7.24V LED    power loco  -27 ctl  -25 
+
+09:23:43 state current=2 last=2 counter= 38 gcounter= 51 color black RGB  69. 80. 88 Segment color=green Dist.   0 Reflect  46 7.17V LED O  power loco  -27 ctl  -25 
+
+09:23:44 state current=2 last=2 counter= 39 gcounter= 52 color black RGB  65. 59. 64 Segment color=black Dist.   0 Reflect  25 7.13V LED OG power loco  -27 ctl  -25 
+09:23:44 /home/per/gitwork/juletog/pitrain/sounds/GlaedeligJul.mp3 spawnlp=3100 
+
+09:23:45 state current=2 last=2 counter= 40 gcounter= 53 color green RGB  89. 86. 84 Segment color=green Dist.   5 Reflect  17 7.17V LED    power loco  -27 ctl  -25 
+
+09:23:46 state current=2 last=2 counter= 41 gcounter= 54 color black RGB  57. 62. 74 Segment color=black Dist.   0 Reflect  47 7.21V LED OG power loco  -27 ctl  -25 
+
+09:23:47 state current=2 last=2 counter= 42 gcounter= 55 color green RGB  46. 56. 58 Segment color=black Dist.   0 Reflect  33 7.18V LED OG power loco  -27 ctl  -25 
+
+09:23:49 state current=2 last=2 counter= 43 gcounter= 56 color green RGB  42. 50. 52 Segment color=black Dist.   1 Reflect  38 7.22V LED    power loco  -27 ctl  -25 
+
+09:23:50 state current=2 last=2 counter= 44 gcounter= 57 color green RGB  55. 66. 62 Segment color=green Dist.   1 Reflect  16 7.17V LED OG power loco  -27 ctl  -25 
+09:23:50 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=3124 
+
+09:23:51 state current=2 last=2 counter= 45 gcounter= 58 color violet RGB  98.101. 92 Segment color=green Dist.   2 Reflect  17 7.18V LED    power loco  -27 ctl  -25 
+
+09:23:52 state current=2 last=2 counter= 46 gcounter= 59 color black RGB  82. 86. 98 Segment color=green Dist.   1 Reflect  19  7.1V LED OG power loco  -27 ctl  -25 
+
+09:23:53 state current=2 last=2 counter= 47 gcounter= 60 color cyan RGB 120.124.115 Segment color=green Dist.   0 Reflect  17 7.13V LED    power loco  -27 ctl  -25 
+09:23:53 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=3138 
+
+09:23:54 state current=2 last=2 counter= 48 gcounter= 61 color green RGB  46. 54. 57 Segment color=black Dist.   2 Reflect  55  7.2V LED OG power loco  -27 ctl  -25 
+
+09:23:55 state current=2 last=2 counter= 49 gcounter= 62 color green RGB  47. 56. 61 Segment color=black Dist.   0 Reflect  45 7.09V LED O  power loco  -27 ctl  -25 
+
+09:23:56 state current=2 last=2 counter= 50 gcounter= 63 color green RGB  95.100. 84 Segment color=green Dist.   1 Reflect  18 7.18V LED  G power loco  -27 ctl  -25 
+09:23:56 /home/per/gitwork/juletog/pitrain/sounds/TRNHorn_Whistling_train_2_ID_0226_BSB.mp3 spawnlp=3153 
+
+09:23:57 state current=2 last=2 counter= 51 gcounter= 64 color green RGB  66. 79. 62 Segment color=green Dist.   2 Reflect  17  7.2V LED OG power loco  -27 ctl  -25 
+
+09:23:58 state current=2 last=2 counter= 52 gcounter= 65 color black RGB  41. 49. 53 Segment color=black Dist.   1 Reflect  18 7.18V LED  G power loco  -27 ctl  -25 
+
+09:24:00 state current=2 last=2 counter= 53 gcounter= 66 color green RGB 141.144.126 Segment color=cyan Dist.   3 Reflect  24 7.14V LED  G power loco  -27 ctl  -25 
+
+09:24:01 state current=2 last=2 counter= 54 gcounter= 67 color green RGB 108.117. 91 Segment color=green Dist.   0 Reflect  17  7.1V LED    power loco  -27 ctl  -25 
+
+09:24:02 state current=2 last=2 counter= 55 gcounter= 68 color green RGB  46. 54. 56 Segment color=black Dist.   1 Reflect  46 7.18V LED    power loco  -27 ctl  -25 
+
+09:24:03 state current=2 last=2 counter= 56 gcounter= 69 color green RGB  51. 60. 53 Segment color=black Dist.   0 Reflect  16 7.17V LED OG power loco  -27 ctl  -25 
+09:24:03 /home/per/gitwork/juletog/pitrain/sounds/MUSCToy_White_christmas_music_box_ID_0465_BSB.mp3 spawnlp=3180 
+
+09:24:04 state current=2 last=2 counter= 57 gcounter= 70 color green RGB 103. 99. 91 Segment color=green Dist.   1 Reflect  21 7.07V LED    power loco  -27 ctl  -25 
+
+09:24:05 state current=2 last=2 counter= 58 gcounter= 71 color black RGB  65. 69. 78 Segment color=green Dist.   0 Reflect  46 7.12V LED    power loco  -27 ctl  -25 
+
+09:24:06 state current=2 last=2 counter= 59 gcounter= 72 color violet RGB 120.112.117 Segment color=green Dist.   0 Reflect  31 7.16V LED  G power loco  -27 ctl  -25 
+
+09:24:07 state current=2 last=2 counter= 60 gcounter= 73 color black RGB  75. 80. 90 Segment color=green Dist.   0 Reflect  38  7.2V LED O  power loco  -27 ctl  -25 
+
+09:24:08 state current=2 last=2 counter= 61 gcounter= 74 color black RGB  58. 69. 76 Segment color=green Dist.   0 Reflect  30 7.19V LED  G power loco  -27 ctl  -25 
+
+09:24:10 state current=2 last=2 counter= 62 gcounter= 75 color black RGB  43. 52. 56 Segment color=black Dist.   1 Reflect  20 7.21V LED O  power loco  -27 ctl  -25 
+
+09:24:11 state current=2 last=2 counter= 63 gcounter= 76 color black RGB 105.106.120 Segment color=green Dist.   1 Reflect  54 7.13V LED OG power loco  -27 ctl  -25 
+
+09:24:12 state current=2 last=2 counter= 64 gcounter= 77 color black RGB  43. 51. 55 Segment color=black Dist.   0 Reflect  34 7.15V LED    power loco  -27 ctl  -25 
+09:24:12 /home/per/gitwork/juletog/pitrain/sounds/KomJulSneGaver.mp3 spawnlp=3216 
+
+09:24:13 state current=2 last=2 counter= 65 gcounter= 78 color black RGB  48. 55. 60 Segment color=black Dist.   1 Reflect  35 7.09V LED OG power loco  -27 ctl  -25 
+
+09:24:14 state current=2 last=2 counter= 66 gcounter= 79 color green RGB  41. 49. 53 Segment color=black Dist.   1 Reflect  31  7.1V LED    power loco  -27 ctl  -25 
+
+09:24:15 state current=2 last=2 counter= 67 gcounter= 80 color green RGB  58. 53. 52 Segment color=black Dist.   1 Reflect  25 7.09V LED  G power loco  -27 ctl  -25 
+
+09:24:16 state current=2 last=2 counter= 68 gcounter= 81 color yellow RGB 204.149. 85 Segment color=yellow Dist.   5 Reflect  19 7.05V LED O  power loco  -27 ctl  -25 
+
+09:24:17 state current=2 last=2 counter= 69 gcounter= 82 color green RGB  34. 37. 45 Segment color=black Dist.   0 Reflect  18 7.05V LED    power loco  -27 ctl  -25 
+
+09:24:18 state current=2 last=2 counter= 70 gcounter= 83 color black RGB  44. 53. 57 Segment color=black Dist.   7 Reflect  39 7.14V LED  G power loco  -27 ctl  -25 
+
+09:24:19 state current=2 last=2 counter= 71 gcounter= 84 color black RGB  77. 85. 95 Segment color=green Dist.   2 Reflect  55 7.14V LED  G power loco  -27 ctl  -25 
+
+09:24:21 state current=2 last=2 counter= 72 gcounter= 85 color green RGB  84. 83. 78 Segment color=green Dist.   0 Reflect  19 7.15V LED O  power loco  -27 ctl  -25 
+
+09:24:22 state current=2 last=2 counter= 73 gcounter= 86 color green RGB 113.106.107 Segment color=green Dist.   0 Reflect  34 7.11V LED  G power loco  -27 ctl  -25 
+
+09:24:23 state current=2 last=2 counter= 74 gcounter= 87 color green RGB  31.108. 47 Segment color=green Dist.   0 Reflect  12 7.15V LED O  power loco  -27 ctl  -25 
+
+09:24:24 state current=3 last=3 counter=  0 gcounter= 88 color green RGB  43. 50. 55 Segment color=black Dist.   0 Reflect  22 7.13V LED    power loco  -27 ctl  -25 
+
+09:24:25 state current=3 last=3 counter=  1 gcounter= 89 color green RGB 121.112.106 Segment color=green Dist.   1 Reflect  32 7.09V LED    power loco  -27 ctl  -25 
+
+09:24:26 state current=3 last=3 counter=  2 gcounter= 90 color green RGB 116.114.102 Segment color=green Dist.   0 Reflect  40  7.1V LED OG power loco  -27 ctl  -25 
+
+09:24:27 state current=3 last=3 counter=  3 gcounter= 91 color green RGB 109.101.106 Segment color=green Dist.   0 Reflect  46 7.14V LED O  power loco  -27 ctl  -25 
+09:24:27 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=3281 
+
+09:24:28 state current=3 last=3 counter=  4 gcounter= 92 color green RGB 122.127.100 Segment color=green Dist.   0 Reflect  30 7.16V LED    power loco  -27 ctl  -25 
+09:24:28 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=3286 
+
+09:24:29 state current=3 last=3 counter=  5 gcounter= 93 color green RGB  90. 94. 81 Segment color=green Dist.   0 Reflect  20 7.14V LED O  power loco  -27 ctl  -25 
+09:24:30 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=3292 
+
+09:24:31 state current=3 last=3 counter=  6 gcounter= 94 color black RGB  97. 94. 93 Segment color=green Dist.   6 Reflect  51 7.06V LED    power loco  -27 ctl  -25 
+09:24:31 /home/per/gitwork/juletog/pitrain/sounds/FARTDsgn_Flatulence_1_ID_0111_BSB.mp3 spawnlp=3297 
+
+09:24:32 state current=3 last=3 counter=  7 gcounter= 95 color green RGB  46. 54. 55 Segment color=black Dist.   0 Reflect  27 7.18V LED O  power loco  -27 ctl  -25 
+
+09:24:33 state current=0 last=0 counter=  0 gcounter= 96 color cyan RGB 117.123.127 Segment color=cyan Dist.   0 Reflect  53 7.47V LED O  power loco  -27 ctl  -25 
+
+09:24:34 state current=0 last=0 counter=  1 gcounter= 97 color cyan RGB 117.124.127 Segment color=cyan Dist.   0 Reflect  46 7.47V LED O  power loco  -27 ctl  -25 
+
+09:24:35 state current=0 last=0 counter=  2 gcounter= 98 color cyan RGB 116.121.126 Segment color=cyan Dist.   0 Reflect  45 7.41V LED OG power loco  -27 ctl  -25 
+
+09:24:36 state current=0 last=0 counter=  3 gcounter= 99 color cyan RGB 116.121.125 Segment color=green Dist.   1 Reflect  46 7.43V LED OG power loco  -27 ctl  -25 
+09:24:36 /home/per/gitwork/juletog/pitrain/sounds/detjuldetcool.mp3 spawnlp=3320 
+
+09:24:37 state current=0 last=0 counter=  4 gcounter=100 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  46 7.48V LED OG power loco  -27 ctl  -25 
+
+09:24:38 state current=0 last=0 counter=  5 gcounter=101 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  46 7.47V LED  G power loco  -27 ctl  -25 
+
+09:24:39 state current=0 last=0 counter=  6 gcounter=102 color cyan RGB 116.122.127 Segment color=cyan Dist.   1 Reflect  46 7.45V LED OG power loco  -27 ctl  -25 
+
+09:24:41 state current=0 last=0 counter=  7 gcounter=103 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  46 7.48V LED  G power loco  -27 ctl  -25 
+
+09:24:42 state current=0 last=0 counter=  8 gcounter=104 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  45 7.46V LED OG power loco  -27 ctl  -25 
+
+09:24:43 state current=0 last=0 counter=  9 gcounter=105 color cyan RGB 116.121.126 Segment color=cyan Dist.   1 Reflect  46 7.46V LED    power loco  -27 ctl  -25 
+
+09:24:44 state current=0 last=0 counter= 10 gcounter=106 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45 7.45V LED OG power loco  -27 ctl  -25 
+
+09:24:45 state current=0 last=0 counter= 11 gcounter=107 color green RGB 115.122.126 Segment color=cyan Dist.   1 Reflect  45 7.45V LED    power loco  -27 ctl  -25 
+
+09:24:46 state current=0 last=0 counter= 12 gcounter=108 color cyan RGB 115.121.126 Segment color=cyan Dist.   1 Reflect  46 7.48V LED O  power loco  -27 ctl  -25 
+
+09:24:47 state current=0 last=0 counter= 13 gcounter=109 color cyan RGB 116.121.127 Segment color=cyan Dist.   1 Reflect  46 7.47V LED    power loco  -27 ctl  -25 
+
+09:24:48 state current=0 last=0 counter= 14 gcounter=110 color cyan RGB 116.122.127 Segment color=cyan Dist.   1 Reflect  46 7.49V LED O  power loco  -27 ctl  -25 
+
+09:24:49 state current=0 last=0 counter= 15 gcounter=111 color green RGB 117.123.126 Segment color=cyan Dist.   1 Reflect  45 7.49V LED O  power loco  -27 ctl  -25 
+
+09:24:50 state current=0 last=0 counter= 16 gcounter=112 color cyan RGB 115.123.127 Segment color=cyan Dist.   1 Reflect  45 7.47V LED  G power loco  -27 ctl  -25 
+
+09:24:52 state current=0 last=0 counter= 17 gcounter=113 color cyan RGB 117.122.125 Segment color=green Dist.   1 Reflect  46 7.49V LED    power loco  -27 ctl  -25 
+
+09:24:53 state current=0 last=0 counter= 18 gcounter=114 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  45 7.49V LED OG power loco  -27 ctl  -25 
+
+09:24:54 state current=0 last=0 counter= 19 gcounter=115 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  45 7.51V LED OG power loco  -27 ctl  -25 
+
+09:24:55 state current=0 last=0 counter= 20 gcounter=116 color cyan RGB 114.120.126 Segment color=cyan Dist.   1 Reflect  46 7.52V LED O  power loco  -27 ctl  -25 
+
+09:24:56 state current=0 last=0 counter= 21 gcounter=117 color green RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  46  7.5V LED O  power loco  -27 ctl  -25 
+
+09:24:57 state current=0 last=0 counter= 22 gcounter=118 color cyan RGB 115.121.125 Segment color=green Dist.   1 Reflect  48  7.5V LED O  power loco  -27 ctl  -25 
+
+09:24:58 state current=0 last=0 counter= 23 gcounter=119 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  46  7.5V LED OG power loco  -27 ctl  -25 
+
+09:24:59 state current=0 last=0 counter= 24 gcounter=120 color cyan RGB 116.121.126 Segment color=cyan Dist.   1 Reflect  48 7.49V LED OG power loco  -27 ctl  -25 
+
+09:25:00 state current=0 last=0 counter= 25 gcounter=121 color cyan RGB 116.121.125 Segment color=green Dist.   1 Reflect  45 7.46V LED OG power loco  -27 ctl  -25 
+
+09:25:02 state current=0 last=0 counter= 26 gcounter=122 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  46 7.52V LED  G power loco  -27 ctl  -25 
+
+09:25:03 state current=0 last=0 counter= 27 gcounter=123 color cyan RGB 115.122.126 Segment color=cyan Dist.   1 Reflect  46 7.52V LED OG power loco  -27 ctl  -25 
+
+09:25:04 state current=0 last=0 counter= 28 gcounter=124 color cyan RGB 116.121.125 Segment color=green Dist.   1 Reflect  46 7.52V LED O  power loco  -27 ctl  -25 
+
+09:25:05 state current=0 last=0 counter= 29 gcounter=125 color cyan RGB 115.122.126 Segment color=cyan Dist.   1 Reflect  46 7.55V LED O  power loco  -27 ctl  -25 
+
+09:25:06 state current=0 last=0 counter= 30 gcounter=126 color cyan RGB 116.121.125 Segment color=green Dist.   1 Reflect  45 7.47V LED  G power loco  -27 ctl  -25 
+
+09:25:07 state current=0 last=0 counter= 31 gcounter=127 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  46 7.47V LED    power loco  -27 ctl  -25 
+
+09:25:08 state current=0 last=0 counter= 32 gcounter=128 color cyan RGB 115.121.126 Segment color=cyan Dist.   1 Reflect  45 7.51V LED OG power loco  -27 ctl  -25 
+
+09:25:09 state current=0 last=0 counter= 33 gcounter=129 color cyan RGB 117.122.126 Segment color=cyan Dist.   1 Reflect  46 7.48V LED O  power loco  -27 ctl  -25 
+
+09:25:10 state current=0 last=0 counter= 34 gcounter=130 color cyan RGB 117.123.127 Segment color=cyan Dist.   1 Reflect  45 7.55V LED O  power loco  -27 ctl  -25 
+
+09:25:11 state current=0 last=0 counter= 35 gcounter=131 color cyan RGB 115.122.127 Segment color=cyan Dist.   1 Reflect  46 7.51V LED O  power loco  -27 ctl  -25 
+
+09:25:13 state current=0 last=0 counter= 36 gcounter=132 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  46 7.51V LED    power loco  -27 ctl  -25 
+
+09:25:14 state current=0 last=0 counter= 37 gcounter=133 color cyan RGB 115.121.126 Segment color=cyan Dist.   1 Reflect  45 7.49V LED O  power loco  -27 ctl  -25 
+
+09:25:15 state current=0 last=0 counter= 38 gcounter=134 color cyan RGB 118.123.126 Segment color=cyan Dist.   1 Reflect  45 7.52V LED    power loco  -27 ctl  -25 
+
+09:25:16 state current=0 last=0 counter= 39 gcounter=135 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  48 7.51V LED OG power loco  -27 ctl  -25 
+
+09:25:17 state current=0 last=0 counter= 40 gcounter=136 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  46 7.48V LED OG power loco  -27 ctl  -25 
+
+09:25:18 state current=0 last=0 counter= 41 gcounter=137 color green RGB 115.120.124 Segment color=green Dist.   1 Reflect  45 7.52V LED O  power loco  -27 ctl  -25 
+
+09:25:19 state current=0 last=0 counter= 42 gcounter=138 color green RGB 115.120.126 Segment color=cyan Dist.   1 Reflect  46 7.51V LED O  power loco  -27 ctl  -25 
+
+09:25:20 state current=0 last=0 counter= 43 gcounter=139 color cyan RGB 117.123.126 Segment color=cyan Dist.   1 Reflect  46  7.5V LED OG power loco  -27 ctl  -25 
+
+09:25:21 state current=0 last=0 counter= 44 gcounter=140 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  45 7.49V LED OG power loco  -27 ctl  -25 
+
+09:25:23 state current=0 last=0 counter= 45 gcounter=141 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45 7.47V LED  G power loco  -27 ctl  -25 
+
+09:25:24 state current=0 last=0 counter= 46 gcounter=142 color green RGB 117.122.126 Segment color=cyan Dist.   1 Reflect  46  7.5V LED O  power loco  -27 ctl  -25 
+
+09:25:25 state current=0 last=0 counter= 47 gcounter=143 color cyan RGB 117.123.128 Segment color=cyan Dist.   1 Reflect  49 7.46V LED OG power loco  -27 ctl  -25 
+
+09:25:26 state current=0 last=0 counter= 48 gcounter=144 color cyan RGB 114.121.126 Segment color=cyan Dist.   1 Reflect  46 7.49V LED  G power loco  -27 ctl  -25 
+
+09:25:27 state current=0 last=0 counter= 49 gcounter=145 color cyan RGB 116.122.127 Segment color=cyan Dist.   1 Reflect  46 7.46V LED    power loco  -27 ctl  -25 
+
+09:25:28 state current=0 last=0 counter= 50 gcounter=146 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45  7.5V LED OG power loco  -27 ctl  -25 
+
+09:25:29 state current=0 last=0 counter= 51 gcounter=147 color cyan RGB 117.123.128 Segment color=cyan Dist.   1 Reflect  45 7.47V LED  G power loco  -27 ctl  -25 
+
+09:25:30 state current=0 last=0 counter= 52 gcounter=148 color cyan RGB 116.121.126 Segment color=cyan Dist.   1 Reflect  46 7.48V LED OG power loco  -27 ctl  -25 
+
+09:25:31 state current=0 last=0 counter= 53 gcounter=149 color cyan RGB 116.123.126 Segment color=cyan Dist.   1 Reflect  46 7.47V LED OG power loco  -27 ctl  -25 
+09:25:31 /home/per/gitwork/juletog/pitrain/sounds/detjuldetcool.mp3 spawnlp=3543 
+
+09:25:33 state current=0 last=0 counter= 54 gcounter=150 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45 7.53V LED  G power loco  -27 ctl  -25 
+
+09:25:34 state current=0 last=0 counter= 55 gcounter=151 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45 7.51V LED    power loco  -27 ctl  -25 
+
+09:25:35 state current=0 last=0 counter= 56 gcounter=152 color cyan RGB 117.122.125 Segment color=green Dist.   1 Reflect  45  7.5V LED O  power loco  -27 ctl  -25 
+
+09:25:36 state current=0 last=0 counter= 57 gcounter=153 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  48  7.5V LED OG power loco  -27 ctl  -25 
+
+09:25:37 state current=0 last=0 counter= 58 gcounter=154 color cyan RGB 115.121.127 Segment color=cyan Dist.   1 Reflect  46 7.53V LED OG power loco  -27 ctl  -25 
+
+09:25:38 state current=0 last=0 counter= 59 gcounter=155 color cyan RGB 115.122.127 Segment color=cyan Dist.   1 Reflect  45 7.54V LED O  power loco  -27 ctl  -25 
+
+09:25:48 state current=0 last=0 counter= 60 gcounter=156 color cyan RGB 116.124.128 Segment color=cyan Dist.   1 Reflect  45 09:26:17 hat_monitor: current=156 last=156 
+09:26:17 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=3726 
+7.55V LED  G power loco  -27 ctl  -25 
+
+09:26:18 state current=0 last=0 counter= 61 gcounter=157 color cyan RGB 116.123.127 Segment color=cyan Dist.   1 Reflect  49 09:26:47 hat_monitor: current=157 last=157 
+09:26:47 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=3849 
+7.45V LED    power loco  -27 ctl  -25 
+
+09:26:48 state current=0 last=0 counter= 62 gcounter=158 color cyan RGB 116.122.126 Segment color=cyan Dist.   1 Reflect  45 09:27:17 hat_monitor: current=158 last=158 
+09:27:17 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=3971 
+7.48V LED OG power loco  -27 ctl  -25 
+
+09:27:18 state current=1 last=1 counter=  0 gcounter=159 color cyan RGB 115.123.128 Segment color=cyan Dist.   1 Reflect  46 09:27:40 /home/per/gitwork/juletog/pitrain/sounds/ANMLDog_Old_dog_barking_1_ID_2352_BSB.mp3 spawnlp=4066 
+09:27:47 hat_monitor: current=159 last=159 
+09:27:47 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=4096 
+7.44V LED  G power loco  -27 ctl  -25 
+09:27:47 power_loco=-27 power_control=-25 
+
+09:27:48 state current=1 last=1 counter=  1 gcounter=160 color black RGB  51. 54. 56 Segment color=black Dist.   1 Reflect  45 09:28:17 hat_monitor: current=160 last=160 
+09:28:17 /home/per/gitwork/juletog/pitrain/sounds/No-HAT.mp3 spawnlp=4217 
+7.14V LED OG power loco  -27 ctl  -25 
+
